@@ -1,0 +1,12 @@
+[$Version]
+update_info=kscreenlocker.upd:0.1-autolock
+
+[Daemon]
+LockGrace=0
+Timeout=15
+
+[Greeter]
+Theme=Sweet
+
+[Greeter][Wallpaper][org.kde.image][General]
+Image=file:///home/bark/Pictures/Wallpapers/default.png
