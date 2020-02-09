@@ -1,0 +1,4 @@
+[MSFT0001:00 06CB:CDB0 Touchpad]
+naturalScroll=true
+pointerAcceleration=0.2
+tapToClick=true
