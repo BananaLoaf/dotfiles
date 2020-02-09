@@ -15,8 +15,8 @@ echo_red "Cleaning up"
 rm -r $HOME/.cache/mozilla
 rm -r $HOME/.local/share/gwenview
 rm -r $HOME/.local/share/kate
-rm $HOME/home/bark/.config/gwenviewrc
-rm $HOME/home/bark/.config/katemetainfos
-rm $HOME/home/bark/.config/katerc
-rm $HOME/home/bark/.config/kateschemarc
-rm $HOME/home/bark/.config/katevirc
+rm $HOME/.config/gwenviewrc
+rm $HOME/.config/katemetainfos
+rm $HOME/.config/katerc
+rm $HOME/.config/kateschemarc
+rm $HOME/.config/katevirc
