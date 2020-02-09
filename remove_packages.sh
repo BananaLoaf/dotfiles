@@ -9,7 +9,10 @@ echo_red ()
 echo_red "Removing packages"
 
 PACKAGES="firefox imagewriter gwenview kate konversation spectacle thunderbird yakuake kget"
-sudo pamac remove $PACKAGES
+for pkg in $PACKAGES
+do
+	sudo pamac remove $pkg
+done
 
 echo_red "Cleaning up"
 rm -r $HOME/.cache/mozilla
