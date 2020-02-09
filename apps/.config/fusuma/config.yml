@@ -1,0 +1,31 @@
+swipe:
+  3:
+    left:
+      command: 'xdotool key ctrl+alt+Right'  # To the right desktop
+    right:
+      command: 'xdotool key ctrl+alt+Left'  # To the left desktop
+    up:
+      command: 'xdotool key ctrl+F10'  # Show all opened apps
+    down:
+      command: 'xdotool key Escape'
+  4:
+    up:
+      command: 'xdotool key ctrl+F8'  # Show all desktops
+    down:
+      command: 'xdotool key super+d'  # Hide/show all
+# pinch:
+#   2:
+#     in:
+#       command: 'xdotool key ctrl+plus'
+#       threshold: 0.1
+#     out:
+#       command: 'xdotool key ctrl+minus'
+#       threshold: 0.1
+
+# threshold:
+#   swipe: 1
+#   pinch: 1
+
+# interval:
+#   swipe: 1
+#   pinch: 1 
