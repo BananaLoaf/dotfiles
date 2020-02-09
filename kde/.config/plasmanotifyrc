@@ -1,0 +1,15 @@
+[Applications][google-chrome]
+Seen=true
+
+[Applications][mailspring_mailspring]
+Seen=true
+
+[Applications][org.manjaro.pamac.manager]
+Seen=true
+
+[Applications][telegramdesktop]
+Seen=true
+
+[Notifications]
+PopupPosition=TopRight
+PopupTimeout=3000
