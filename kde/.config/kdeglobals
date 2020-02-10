@@ -2,11 +2,13 @@
 update_info=filepicker.upd:filepicker-remove-old-previews-entry,fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar
 
 [ColorEffects:Disabled]
+ChangeSelectionColor=
 Color=56,56,56
 ColorAmount=0
 ColorEffect=0
 ContrastAmount=0.65
 ContrastEffect=1
+Enable=
 IntensityAmount=0.1
 IntensityEffect=2
 
@@ -40,6 +42,14 @@ BackgroundAlternate=54,57,62
 BackgroundNormal=33,35,41
 DecorationFocus=66,133,244
 DecorationHover=79,83,91
+ForegroundActive=147,206,233
+ForegroundInactive=175,176,179
+ForegroundLink=61,174,230
+ForegroundNegative=231,76,60
+ForegroundNeutral=253,188,75
+ForegroundNormal=239,240,241
+ForegroundPositive=46,174,230
+ForegroundVisited=61,174,230
 
 [Colors:Selection]
 BackgroundAlternate=29,153,243
@@ -100,7 +110,7 @@ ForegroundVisited=179,13,191
 [General]
 BrowserApplication=google-chrome.desktop
 ColorScheme=Sweet
-Name=Sweet
+Name=ChromeOS
 shadeSortColumn=true
 toolBarFont=Noto Sans,10,-1,5,50,0,0,0,0,0
 
@@ -108,9 +118,9 @@ toolBarFont=Noto Sans,10,-1,5,50,0,0,0,0,0
 Theme=Paper
 
 [KDE]
-LookAndFeelPackage=Sweet
+LookAndFeelPackage=com.github.vinceliuice.ChromeOS
 SingleClick=false
-contrast=4
+contrast=0
 widgetStyle=kvantum
 
 [WM]

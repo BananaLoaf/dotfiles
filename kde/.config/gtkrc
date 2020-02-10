@@ -1,4 +1,4 @@
-# created by KDE Plasma, пн февр. 10 16:31:17 2020
+# created by KDE Plasma, пн февр. 10 17:17:33 2020
 #
 # If you do not want Plasma to override your GTK settings, select
 # Colors in the System Settings and disable the checkbox
@@ -10,7 +10,7 @@ style "default"
   bg[NORMAL] = { 0.094, 0.106, 0.157 }
   bg[SELECTED] = { 0.773, 0.055, 0.824 }
   bg[INSENSITIVE] = { 0.094, 0.106, 0.157 }
-  bg[ACTIVE] = { 0.082, 0.090, 0.137 }
+  bg[ACTIVE] = { 0.082, 0.094, 0.141 }
   bg[PRELIGHT] = { 0.094, 0.106, 0.157 }
 
   base[NORMAL] = { 0.086, 0.098, 0.145 }
@@ -21,13 +21,13 @@ style "default"
 
   text[NORMAL] = { 0.827, 0.855, 0.890 }
   text[SELECTED] = { 0.996, 0.996, 0.996 }
-  text[INSENSITIVE] = { 0.082, 0.090, 0.137 }
+  text[INSENSITIVE] = { 0.082, 0.094, 0.141 }
   text[ACTIVE] = { 0.996, 0.996, 0.996 }
   text[PRELIGHT] = { 0.996, 0.996, 0.996 }
 
   fg[NORMAL] = { 0.827, 0.855, 0.890 }
   fg[SELECTED] = { 0.996, 0.996, 0.996 }
-  fg[INSENSITIVE] = { 0.082, 0.090, 0.137 }
+  fg[INSENSITIVE] = { 0.082, 0.094, 0.141 }
   fg[ACTIVE] = { 0.827, 0.855, 0.890 }
   fg[PRELIGHT] = { 0.827, 0.855, 0.890 }
 }

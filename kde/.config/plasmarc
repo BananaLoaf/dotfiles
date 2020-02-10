@@ -5,7 +5,7 @@ Enabled=true
 Delay=0.7
 
 [Theme]
-name=Sweet
+name=ChromeOS
 
 [Wallpapers]
 usersWallpapers=/home/bark/Pictures/Wallpapers/default.png

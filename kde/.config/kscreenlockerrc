@@ -6,7 +6,7 @@ LockGrace=0
 Timeout=15
 
 [Greeter]
-Theme=Sweet
+Theme=com.github.vinceliuice.ChromeOS
 
 [Greeter][Wallpaper][org.kde.image][General]
 Image=file:///home/bark/Pictures/Wallpapers/default.png

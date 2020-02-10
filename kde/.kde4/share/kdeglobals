@@ -112,7 +112,7 @@ LookAndFeelPackage=Sweet
 ShowIconsInMenuItems=true
 ShowIconsOnPushButtons=true
 SingleClick=false
-contrast=4
+contrast=0
 widgetStyle=kvantum
 
 [Toolbar style]
