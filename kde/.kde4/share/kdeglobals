@@ -111,7 +111,7 @@ Theme=Paper
 LookAndFeelPackage=Sweet
 ShowIconsInMenuItems=true
 ShowIconsOnPushButtons=true
-SingleClick=true
+SingleClick=false
 contrast=4
 widgetStyle=kvantum
 

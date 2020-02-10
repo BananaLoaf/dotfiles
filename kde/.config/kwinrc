@@ -69,7 +69,10 @@ CommandWindowWheel=Scroll
 desktopchangeosdEnabled=false
 highlightwindowEnabled=true
 kwin4_effect_dimscreenEnabled=true
+minimizeallEnabled=true
 screenedgeEnabled=false
+synchronizeskipswitcherEnabled=false
+videowallEnabled=false
 windowgeometryEnabled=false
 
 [Script-desktopchangeosd]

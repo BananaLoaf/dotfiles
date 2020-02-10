@@ -109,7 +109,7 @@ Theme=Paper
 
 [KDE]
 LookAndFeelPackage=Sweet
-SingleClick=true
+SingleClick=false
 contrast=4
 widgetStyle=kvantum
 

@@ -78,7 +78,8 @@
 
 ### Workspace - Workspace behavior - General behavior
 ```
-.config/plasmarc??? ✓
+.config/kdeglobals ✓
+.kde4/share/config/kdeglobals ✓
 ```
 
 ### Workspace - Workspace behavior - Desktop Effects

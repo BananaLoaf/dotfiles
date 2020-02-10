@@ -1,0 +1,20 @@
+[Desktop Entry]
+Categories=GNOME;Utility;
+Comment[en_US]=Application launcher for Linux
+Comment=Application launcher for Linux
+Exec=env GDK_BACKEND=x11 /usr/bin/ulauncher --hide-window
+GenericName[en_US]=
+GenericName=
+Icon=ulauncher
+MimeType=
+Name[en_US]=Ulauncher
+Name=Ulauncher
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
