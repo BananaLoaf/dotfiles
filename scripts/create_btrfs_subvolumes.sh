@@ -20,8 +20,8 @@ create_subvolume ()
     	then
 	    	mv $SUBVOLUME_PATH $TEMP_PATH
 	    	btrfs subvolume create $SUBVOLUME_PATH > /dev/null
-	    	mv $TEMP_PATH/* $SUBVOLUME_PATH/
-	    	rmdir $TEMP_PATH
+	    	mv $TEMP_PATH/* $SUBVOLUME_PATH/ > /dev/null
+	    	rm -r $TEMP_PATH
 	    else
 	    	btrfs subvolume create $SUBVOLUME_PATH > /dev/null
 	    fi
