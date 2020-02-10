@@ -25,6 +25,7 @@ then
     link $PWD/.config/fish $HOME/.config/fish
     link $PWD/.config/fusuma $HOME/.config/fusuma
     link $PWD/.config/latte $HOME/.config/latte
+    link $PWD/.config/ulauncher $HOME/.config/ulauncher
     link $PWD/.config/dolphinrc $HOME/.config/dolphinrc
     link $PWD/.config/lattedockrc $HOME/.config/lattedockrc
 
