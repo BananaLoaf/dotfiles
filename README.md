@@ -6,12 +6,12 @@
 ```
 .config/gtkrc - Colors
 .config/gtkrc-2.0 - Colors
-.config/kcminputrc - Cursor theme
+.config/kcminputrc - Cursor theme ✓
 .config/kdeglobals - Colors, Color scheme name, icon pack name
-.config/kscreenlockerrc - Screen lock name
-.config/ksplashrc - Splash screen name
-.config/kwinrc - Window decorations, tab box theme
-.config/plasmarc - Plasma style
+.config/kscreenlockerrc - Screen lock name ✓
+.config/ksplashrc - Splash screen name ✓
+.config/kwinrc - Window decorations, tab box theme ✓
+.config/plasmarc - Plasma style ✓
 .config/Trolltech.conf - Colors
 .kde4/share/apps/color-schemes/* - Colors
 .kde4/share/config/kdeglobals
@@ -19,7 +19,7 @@
 
 ### Appearance - Plasma Style
 ```
-.config/plasmarc
+.config/plasmarc ✓
 ```
 
 ### Appearance - Application Style - Application Style
@@ -36,7 +36,7 @@
 
 ### Appearance - Application Style - Window Decorations
 ```
-.config/kwinrc
+.config/kwinrc ✓
 ```
 
 ### Appearance - Colors
@@ -71,57 +71,58 @@
 
 ### Appearance - Cursors
 ```
-.config/kcminputrc
+.config/kcminputrc ✓
 ```
 
 
 
 ### Workspace - Workspace behavior - General behavior
 ```
-.config/plasmarc
+.config/plasmarc ✓
 ```
 
 ### Workspace - Workspace behavior - Desktop Effects
 ```
-.config/kwinrc
+.config/kwinrc ✓
 ```
 
 ### Workspace - Workspace behavior - Screen Edges
 ```
-.config/kwinrc
+.config/kwinrc ✓
 ```
 
 ### Workspace - Workspace behavior - Screen Locking
 ```
-.config/kscreenlockerrc
+.config/kscreenlockerrc ✓
 ```
 
 ### Workspace - Workspace behavior - Virtual Desktops
 ```
-.config/kwinrc
+.config/kwinrc ✓
 ```
 
 ### Workspace - Workspace behavior - Activities
 ```
-.config/kactivitymanagerdrc
-.config/kactivitymanagerd-pluginsrc
+.config/kactivitymanagerdrc ✓
+.config/kactivitymanagerd-pluginsrc ✓
+.config/kactivitymanagerd-statsrc ✓
 ```
 
 
 
 ### Window management - Window behavior
 ```
-.config/kwinrc
+.config/kwinrc ✓
 ```
 
 ### Window management - Task Switcher
 ```
-.config/kwinrc
+.config/kwinrc ✓
 ```
 
 ### Window management - KWin Scripts
 ```
-.config/kwinrc
+.config/kwinrc ✓
 ```
 
 ### Window management - Window Rules
@@ -133,7 +134,7 @@
 
 ### Shortcuts - Global Shortcuts
 ```
-.config/kglobalshortcutsrc
+.config/kglobalshortcutsrc ✓
 ```
 
 ### Shortcuts - Standard Shortcuts
@@ -148,7 +149,7 @@
 
 ### Shortcuts - Custom Shortcuts
 ```
-.config/khotkeysrc
+.config/khotkeysrc ✓
 ```
 
 
@@ -165,12 +166,12 @@
 
 ### Startup and Shutdown - Desktop Session
 ```
-.config/ksmserverrc
+.config/ksmserverrc ✓
 ```
 
 ### Startup and Shutdown - Splash Screen
 ```
-.config/ksplashrc
+.config/ksplashrc ✓
 ```
 
 
@@ -184,7 +185,7 @@
 
 ### Personalization - Notifications
 ```
-.config/plasmanotifyrc
+.config/plasmanotifyrc ✓
 ```
 
 ### Personalization - Applications - Default Applications
@@ -219,23 +220,23 @@
 
 ### Hardware - Input Devices - Keyboard
 ```
-.config/kcminputrc - Settings
-.config/kxkbrc - Layouts, model
+.config/kcminputrc - Settings ✓
+.config/kxkbrc - Layouts, model ✓
 ```
 
 ### Hardware - Input Devices - Touchpad
 ```
-.config/touchpadxlibinputrc
+.config/touchpadxlibinputrc ✓
 ```
 
 ### Hardware - Power Management - Energy Saving
 ```
-.config/powermanagementprofilesrc
+.config/powermanagementprofilesrc ✓
 ```
 
 ### Hardware - Power Management - Advanced Settings
 ```
-.config/powerdevilrc
+.config/powerdevilrc ✓
 ```
 
 
