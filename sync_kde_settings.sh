@@ -24,6 +24,8 @@ then
     echo_green "Linking KDE config files"
     link $PWD/.config/autostart $HOME/.config/autostart
     link $PWD/.config/autostart-scripts $HOME/.config/autostart-scripts
+    link $PWD/.config/gtk-3.0 $HOME/.config/gtk-3.0
+    link $PWD/.gtkrc-2.0 $HOME/.gtkrc-2.0
 
     for file in $(find .config -maxdepth 1 -type f)
     do
