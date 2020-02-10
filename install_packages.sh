@@ -11,11 +11,12 @@ echo_green "Installing packages"
 
 SECURITY="gnome-keyring kgpg seahorse"
 MEDIA="pix gimp	lollypop"
+COMMUNICAION="telegram-desktop"
 BACKUP="deja-dup timeshift"
 RICING="paper-icon-theme-git latte-dock neofetch lolcat"
-MISC="gutenprint grub-customizer gparted net-tools zip unzip yay flameshot fish gocryptfs etcher time"
+MISC="gutenprint ttf-opensans grub-customizer gparted net-tools zip unzip yay flameshot fish gocryptfs etcher time"
 
-PACKAGES="$SECURITY $INTERNET $MEDIA $BACKUP $RICING $MISC"
+PACKAGES="$SECURITY $MEDIA $COMMUNICAION $BACKUP $RICING $MISC"
 sudo pamac install $PACKAGES --no-confirm
 
 
@@ -40,7 +41,7 @@ DEVELOPMENT_SNAP_CLASSIC="clion pycharm-community sublime-text"
 PACKAGES_SNAP_CLASSIC="$DEVELOPMENT_SNAP_CLASSIC"
 
 MEDIA_SNAP="spotify google-play-music-desktop-player"
-COMMUNICAION_SNAP="telegram-desktop whatsdesk discord mailspring protonmail-desktop-unofficial"
+COMMUNICAION_SNAP="awhatsdesk discord mailspring protonmail-desktop-unofficial"
 PACKAGES_SNAP="$MEDIA_SNAP $COMMUNICAION_SNAP"
 
 for pkg in $PACKAGES_SNAP_CLASSIC
