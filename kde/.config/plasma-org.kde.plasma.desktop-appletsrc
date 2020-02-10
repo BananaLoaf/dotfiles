@@ -1,0 +1,51 @@
+[ActionPlugins][0]
+RightButton;NoModifier=org.kde.contextmenu
+
+[ActionPlugins][0][RightButton;NoModifier]
+_add panel=true
+_context=true
+_lock_screen=true
+_logout=true
+_run_command=true
+_sep1=true
+_sep2=true
+_sep3=true
+_wallpaper=true
+add widgets=true
+configure=true
+configure shortcuts=false
+lock widgets=true
+manage activities=true
+remove=true
+run associated application=true
+
+[ActionPlugins][1]
+MidButton;NoModifier=org.kde.paste
+RightButton;NoModifier=org.kde.contextmenu
+
+[Containments][35]
+activityId=677dd158-06eb-415f-93ec-a5caa3095919
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][35][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][35][Configuration]
+PreloadWeight=0
+
+[Containments][35][General]
+ToolBoxButtonState=top
+ToolBoxButtonX=1882
+showToolbox=false
+
+[Containments][35][Wallpaper][org.kde.image][General]
+Image=file:///usr/share/wallpapers/Breath/contents/images/1920x1080.png
+
+[ScreenMapping]
+itemsOnDisabledScreens=

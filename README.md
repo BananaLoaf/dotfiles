@@ -78,7 +78,7 @@
 
 ### Workspace - Workspace behavior - General behavior
 ```
-.config/plasmarc ✓
+.config/plasmarc??? ✓
 ```
 
 ### Workspace - Workspace behavior - Desktop Effects
@@ -245,11 +245,11 @@
 
 ### Panels
 ```
-.config/plasmashellrc
-.config/plasma-org.kde.plasma.desktop-appletsrc
+.config/plasmashellrc ✓
+.config/plasma-org.kde.plasma.desktop-appletsrc ✓
 ```
 
 ### Wallpapers, Mouse Actions, Tweaks
 ```
-.config/plasma-org.kde.plasma.desktop-appletsrc
+.config/plasma-org.kde.plasma.desktop-appletsrc ✓
 ```
