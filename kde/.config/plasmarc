@@ -1,0 +1,11 @@
+[OSD]
+Enabled=true
+
+[PlasmaToolTips]
+Delay=0.7
+
+[Theme]
+name=Sweet
+
+[Wallpapers]
+usersWallpapers=/home/bark/Pictures/Wallpapers/default.png
