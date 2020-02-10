@@ -26,7 +26,7 @@ SECURITY_AUR="tunnelbear"
 INTERNET_AUR="google-chrome dropbox tor-browser"
 DEVELOPMENT_AUR="gitkraken"
 BACKUP_AUR="btrbk"
-RICING_AUR="sweet-theme-git chromeos-gtk-theme-git ulauncher"
+RICING_AUR="sweet-theme-git"
 MISC_AUR="ruby-fusuma gotop"
 
 PACKAGES_AUR="$SECURITY_AUR $INTERNET_AUR $DEVELOPMENT_AUR $BACKUP_AUR $RICING_AUR $MISC_AUR"
