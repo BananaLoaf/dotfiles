@@ -38,7 +38,7 @@ Comment=Simple_action
 TriggersCount=1
 
 [Data_1_1Triggers0]
-Key=
+Key=Ctrl+Alt+T
 Type=SHORTCUT
 Uuid={5a1a7f19-02dc-4ba2-b0b1-2efe8dff1d30}
 

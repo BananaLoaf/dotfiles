@@ -27,7 +27,7 @@ display=Display\tMeta+P,Display\tMeta+P,Switch Display
 
 [khotkeys]
 _k_friendly_name=KDE Daemon
-{5a1a7f19-02dc-4ba2-b0b1-2efe8dff1d30}=,none,Launch Konsole
+{5a1a7f19-02dc-4ba2-b0b1-2efe8dff1d30}=Ctrl+Alt+T,none,Launch Konsole
 
 [kmix]
 _k_friendly_name=Audio Volume
@@ -37,6 +37,11 @@ increase_microphone_volume=Microphone Volume Up,Microphone Volume Up,Increase Mi
 increase_volume=Volume Up,Volume Up,Increase Volume
 mic_mute=Microphone Mute,Microphone Mute,Mute Microphone
 mute=Volume Mute,Volume Mute,Mute
+
+[krunner.desktop]
+RunClipboard=none,Alt+Shift+F2,Run command on clipboard contents
+_k_friendly_name=KRunner
+_launch=\t\tSearch,Alt+Space\tAlt+F2\tSearch,KRunner
 
 [ksmserver]
 Halt Without Confirmation=none,none,Halt Without Confirmation
