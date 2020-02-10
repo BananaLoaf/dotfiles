@@ -26,6 +26,8 @@ then
     link $PWD/.config/fusuma $HOME/.config/fusuma
     link $PWD/.config/latte $HOME/.config/latte
     link $PWD/.config/dolphinrc $HOME/.config/dolphinrc
+    link $PWD/.config/lattedockrc $HOME/.config/lattedockrc
+
     link $PWD/.local/share/konsole $HOME/.local/share/konsole
     link $PWD/.local/share/user-places.xbel $HOME/.local/share/user-places.xbel
     
