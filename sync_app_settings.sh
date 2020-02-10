@@ -21,6 +21,10 @@ then
     cd apps
 
     ################################################################
+    mkdir $HOME/Pictures/Screenshots
+    mkdir $HOME/Pictures/Wallpapers
+
+    ################################################################
     echo_green "Linking config files"
     link $PWD/.config/fish $HOME/.config/fish
     link $PWD/.config/fusuma $HOME/.config/fusuma

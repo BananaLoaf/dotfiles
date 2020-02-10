@@ -27,6 +27,7 @@ display=Display\tMeta+P,Display\tMeta+P,Switch Display
 
 [khotkeys]
 _k_friendly_name=KDE Daemon
+{39db554c-76d8-4910-b07b-ea642206dd4c}=Print,none,Flameshot
 {5a1a7f19-02dc-4ba2-b0b1-2efe8dff1d30}=Ctrl+Alt+T,none,Launch Konsole
 
 [kmix]
