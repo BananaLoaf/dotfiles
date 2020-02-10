@@ -25,6 +25,10 @@ then
     link $PWD/.config/autostart $HOME/.config/autostart
     link $PWD/.config/autostart-scripts $HOME/.config/autostart-scripts
     link $PWD/.config/gtk-3.0 $HOME/.config/gtk-3.0
+
+    link $PWD/.kde4/share/kdeglobals $HOME/.kde4/share/kdeglobals
+    link $PWD/.kde4/apps/color-schemes $HOME/.kde4/apps/color-schemes
+
     link $PWD/.gtkrc-2.0 $HOME/.gtkrc-2.0
 
     for file in $(find .config -maxdepth 1 -type f)

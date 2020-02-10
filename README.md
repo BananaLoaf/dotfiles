@@ -4,17 +4,17 @@
 
 ### Appearance - Global Theme
 ```
-.config/gtkrc - Colors
-.config/gtkrc-2.0 - Colors
+.config/gtkrc - Colors ✓
+.config/gtkrc-2.0 - Colors ✓
 .config/kcminputrc - Cursor theme ✓
-.config/kdeglobals - Colors, Color scheme name, icon pack name
+.config/kdeglobals - Colors, Color scheme name, icon pack name ✓
 .config/kscreenlockerrc - Screen lock name ✓
 .config/ksplashrc - Splash screen name ✓
 .config/kwinrc - Window decorations, tab box theme ✓
 .config/plasmarc - Plasma style ✓
-.config/Trolltech.conf - Colors
-.kde4/share/apps/color-schemes/* - Colors
-.kde4/share/config/kdeglobals
+.config/Trolltech.conf - Colors ✓
+.kde4/share/apps/color-schemes/* - Colors ✓
+.kde4/share/config/kdeglobals ✓
 ```
 
 ### Appearance - Plasma Style
@@ -24,14 +24,14 @@
 
 ### Appearance - Application Style - Application Style
 ```
-.config/kdeglobals
-.kde4/share/config/kdeglobals
+.config/kdeglobals ✓
+.kde4/share/config/kdeglobals ✓
 ```
 
 ### Appearance - Application Style - GNOME/GTK Application Style
 ```
-.config/gtk-3.0/settings.ini - Theme, Icons, Cursor
-.gtkrc-2.0 - Theme, Icons, Cursor
+.config/gtk-3.0/settings.ini - Theme, Icons, Cursor ✓
+.gtkrc-2.0 - Theme, Icons, Cursor ✓
 ```
 
 ### Appearance - Application Style - Window Decorations
@@ -41,32 +41,32 @@
 
 ### Appearance - Colors
 ```
-.config/gtk-3.0/colors.css
-.config/gtkrc
-.config/gtkrc-2.0
-.config/kdeglobals
-.config/Trolltech.conf
+.config/gtk-3.0/colors.css ✓
+.config/gtkrc ✓
+.config/gtkrc-2.0 ✓
+.config/kdeglobals ✓
+.config/Trolltech.conf ✓
 .kde4/share/apps/color-schemes/*
-.kde4/share/config/kdeglobals
+.kde4/share/config/kdeglobals ✓
 ```
 
 ### Appearance - Fonts
 ```
-.config/kdeglobals
+.config/kdeglobals ✓
 .config/kcmfonts
 .config/kfontinstuirc
-.kde4/share/config/kdeglobals
+.kde4/share/config/kdeglobals ✓
 ```
 
 ### Appearance - Icons - Icons
 ```
-.config/kdeglobals
-.kde4/share/config/kdeglobals
+.config/kdeglobals ✓
+.kde4/share/config/kdeglobals ✓
 ```
 
 ### Appearance - Icons - Emoji
 ```
-.config/kdeglobals
+.config/kdeglobals ✓
 ```
 
 ### Appearance - Cursors
@@ -139,7 +139,7 @@
 
 ### Shortcuts - Standard Shortcuts
 ```
-.config/kdeglobals
+.config/kdeglobals ✓
 ```
 
 ### Shortcuts - Web Shortcuts
@@ -161,7 +161,8 @@
 
 ### Startup and Shutdown - Autostart
 ```
-.config/autostart/*
+.config/autostart/* ✓
+.config/autostart-scripts/* ✓
 ```
 
 ### Startup and Shutdown - Desktop Session
@@ -208,7 +209,7 @@
 
 #### Web Browser
 ```
-.config/kdeglobals
+.config/kdeglobals ✓
 ```
 
 ### Personalization - Applications - File Associations
