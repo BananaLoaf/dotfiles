@@ -4,6 +4,9 @@ DefaultProfile=Shell.profile
 [DetailsMode]
 PreviewSize=16
 
+[General]
+ConfirmClosingMultipleTabs=false
+
 [IconsMode]
 PreviewSize=16
 
