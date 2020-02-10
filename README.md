@@ -192,8 +192,8 @@
 
 #### Email client
 ```
-.config/emaildefaults
-.config/mimeapps.list
+.config/emaildefaults ✓
+.config/mimeapps.list ✓
 ```
 
 #### File Manager
@@ -213,7 +213,7 @@
 
 ### Personalization - Applications - File Associations
 ```
-.config/mimeapps.list
+.config/mimeapps.list ✓
 ```
 
 
