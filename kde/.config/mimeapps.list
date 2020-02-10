@@ -1,0 +1,13 @@
+[Added Associations]
+application/x-shellscript=sublime-text_subl.desktop;
+application/xml=sublime-text_subl.desktop;
+text/markdown=sublime-text_subl.desktop;
+text/plain=sublime-text_subl.desktop;
+
+[Default Applications]
+application/x-shellscript=sublime-text_subl.desktop;
+application/xml=sublime-text_subl.desktop;
+text/html=google-chrome.desktop
+text/markdown=sublime-text_subl.desktop;
+text/plain=sublime-text_subl.desktop;
+x-scheme-handler/mailto=mailspring_mailspring.desktop;
