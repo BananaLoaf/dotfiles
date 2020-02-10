@@ -1,0 +1,22 @@
+[Desktop Entry]
+Categories=Office;
+Comment[en_US]=Unofficial Electron wrapper for ProtonMail
+Comment=Unofficial Electron wrapper for ProtonMail
+Exec=env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/protonmail-desktop-unofficial_protonmail-desktop-unofficial.desktop /var/lib/snapd/snap/bin/protonmail-desktop-unofficial
+GenericName[en_US]=
+GenericName=
+Icon=/var/lib/snapd/snap/protonmail-desktop-unofficial/4/meta/gui/icon.png
+MimeType=
+Name[en_US]=Protonmail Desktop (unofficial)
+Name=Protonmail Desktop (unofficial)
+Path=
+StartupNotify=true
+StartupWMClass=Protonmail Desktop (unofficial)
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+X-SnapInstanceName=protonmail-desktop-unofficial

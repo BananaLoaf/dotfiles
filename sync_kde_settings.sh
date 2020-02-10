@@ -22,8 +22,8 @@ then
 
     ################################################################
     echo_green "Linking KDE config files"
-    # link $PWD/.config/autostart $HOME/.config/autostart
-    # link $PWD/.config/autostart-scripts $HOME/.config/autostart-scripts
+    link $PWD/.config/autostart $HOME/.config/autostart
+    link $PWD/.config/autostart-scripts $HOME/.config/autostart-scripts
 
     for file in $(find .config -maxdepth 1 -type f)
     do
