@@ -22,19 +22,15 @@ then
 
     ################################################################
     echo_green "Linking KDE config files"
-    link $PWD/.config/autostart $HOME/.config/autostart
-    link $PWD/.config/autostart-scripts $HOME/.config/autostart-scripts
-    link $PWD/.config/gtk-3.0 $HOME/.config/gtk-3.0
-
-    link $PWD/.kde4/share/kdeglobals $HOME/.kde4/share/kdeglobals
-    link $PWD/.kde4/apps/color-schemes $HOME/.kde4/apps/color-schemes
+    for dirname in ".config" ".kde4/apps" ".kde4/share"
+    do
+        for basename in $(ls $dirname)
+        do
+            link $PWD/$dirname/$basename $HOME/$dirname/$basename
+        done
+    done
 
     link $PWD/.gtkrc-2.0 $HOME/.gtkrc-2.0
-
-    for file in $(find .config -maxdepth 1 -type f)
-    do
-        link $PWD/$file $HOME/$file
-    done
 
     cd ..
 else

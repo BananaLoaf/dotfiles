@@ -16,25 +16,24 @@ link ()
     ln -s $SOURCE $DEST       # Link
 }
 
+################################################################
+mkdir $HOME/Pictures/Screenshots
+link $PWD/wallpapers $HOME/Pictures/Wallpapers
+
+################################################################
 if [[ $PWD == *dotfiles ]]
 then
     cd apps
 
     ################################################################
-    mkdir $HOME/Pictures/Screenshots
-    mkdir $HOME/Pictures/Wallpapers
-
-    ################################################################
-    echo_green "Linking config files"
-    link $PWD/.config/fish $HOME/.config/fish
-    link $PWD/.config/fusuma $HOME/.config/fusuma
-    link $PWD/.config/latte $HOME/.config/latte
-    link $PWD/.config/ulauncher $HOME/.config/ulauncher
-    link $PWD/.config/dolphinrc $HOME/.config/dolphinrc
-    link $PWD/.config/lattedockrc $HOME/.config/lattedockrc
-
-    link $PWD/.local/share/konsole $HOME/.local/share/konsole
-    link $PWD/.local/share/user-places.xbel $HOME/.local/share/user-places.xbel
+    echo_green "Linking applications config files"
+    for dirname in ".local/share" ".config"
+    do
+    	for basename in $(ls $dirname)
+    	do
+      		link $PWD/$dirname/$basename $HOME/$dirname/$basename
+    	done
+    done
     
     ################################################################
     # Change shell
