@@ -33,8 +33,8 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][35][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
+DialogHeight=835
+DialogWidth=1714
 
 [Containments][35][Configuration]
 PreloadWeight=0
@@ -45,7 +45,7 @@ ToolBoxButtonX=1882
 showToolbox=false
 
 [Containments][35][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/Breath/contents/images/1920x1080.png
+Image=file:///home/bark/Projects/dotfiles/wallpapers/nyu_jork_ssha_noch_neboskreby_118354_1920x1080.jpg
 
 [ScreenMapping]
 itemsOnDisabledScreens=
