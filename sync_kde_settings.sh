@@ -16,3 +16,5 @@ do
 done
 
 link $PWD/.gtkrc-2.0 $HOME/.gtkrc-2.0
+link $PWD/.face $HOME/.face
+sudo cp $PWD/.face /usr/share/sddm/faces/$USER.face.icon
