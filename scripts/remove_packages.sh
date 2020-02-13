@@ -1,12 +1,8 @@
 #!/bin/bash
+. ./scripts/funcs.sh --source-only
 
-echo_red ()
-{
-	local TEXT=$1
-	echo -e "\e[4;31m$TEXT\e[0m"
-}
-
-echo_red "Removing packages"
+################################################################
+echo_green "Removing packages"
 
 PACKAGES="firefox imagewriter gwenview kate konversation spectacle thunderbird yakuake kget"
 for pkg in $PACKAGES
@@ -14,7 +10,8 @@ do
 	sudo pamac remove $pkg
 done
 
-echo_red "Cleaning up"
+################################################################
+echo_green "Cleaning up"
 rm -r $HOME/.cache/mozilla
 rm -r $HOME/.local/share/gwenview
 rm -r $HOME/.local/share/kate

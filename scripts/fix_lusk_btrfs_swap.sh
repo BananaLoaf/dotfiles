@@ -1,4 +1,5 @@
- #!/bin/bash
+#!/bin/bash
+. ./scripts/funcs.sh --source-only
  
 OLD_LINE="#keyfile_device_mount_options=\"--options=subvol=__active/__\""
 NEW_LINE="keyfile_device_mount_options=\"-t btrfs -o subvol=@,defaults\""
@@ -9,5 +10,5 @@ then
     sudo sed -i "$SED_PATT" /etc/openswap.conf
     sudo mkinitcpio -p linux54
 else
-    echo "Swap is aready fixed!"
+    echo_red "Swap is aready fixed!"
 fi

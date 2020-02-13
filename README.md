@@ -1,6 +1,32 @@
-# dotfiles
+# dotfiles for Manjaro KDE on Lenovo S940
 
-## Settings
+## Guide
+
+Install ChromeOS and Sweet global themes manually
+
+```bash
+# Prepare the repo
+git clone https://github.com/BananaLoaf/dotfiles.git $HOME/dotfiles && cd $HOME/dotfiles
+bash scripts/create_btrfs_subvolumes.sh
+mv $HOME/dotfiles $HOME/Projects && cd $HOME/Projects/dotfiles
+
+# Run other scripts
+bash scripts/fix_lusk_btrfs_swap.sh
+bash scripts/gnome-keyring-autostart.sh
+bash scripts/fix_touchpad.sh  # Doesn't do anything
+
+# Sync package list
+bash scripts/remove_packages.sh
+sudo pamac update
+bash scripts/install_packages.sh
+
+# Sync settings
+chmod +x kde/.config/autostart-scripts/*
+bash sync_app_settings.sh
+bash sync_kde_settings.sh
+```
+
+## KDE Settings reference
 
 ### Appearance - Global Theme
 ```

@@ -1,10 +1,5 @@
 #!/bin/bash
-
-echo_green ()
-{
-    local TEXT=$1
-    echo -e "\e[4;32m$TEXT\e[0m"
-}
+. ./scripts/funcs.sh --source-only
 
 create_subvolume ()
 {
@@ -12,7 +7,7 @@ create_subvolume ()
     local TEMP_PATH="$SUBVOLUME_PATH"_temp
     if sudo btrfs subvolume list -a / | grep -q $(basename $SUBVOLUME_PATH)
 	then
-		:
+		echo_red "Subvolume at $SUBVOLUME_PATH alredy exists!"
     else
     	echo_green "Creating subvolume at $SUBVOLUME_PATH"
 
@@ -27,6 +22,8 @@ create_subvolume ()
 	    fi
 	fi
 } 
+
+confirm_path
 
 create_subvolume $HOME/Desktop
 create_subvolume $HOME/Documents
