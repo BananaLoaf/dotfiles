@@ -2,6 +2,7 @@
 application/x-shellscript=sublime-text_subl.desktop;
 application/xml=sublime-text_subl.desktop;
 image/jpeg=pix.desktop;
+image/png=pix.desktop;
 image/svg+xml=pix.desktop;
 text/markdown=sublime-text_subl.desktop;
 text/plain=sublime-text_subl.desktop;
@@ -10,6 +11,7 @@ text/plain=sublime-text_subl.desktop;
 application/x-shellscript=sublime-text_subl.desktop;
 application/xml=sublime-text_subl.desktop;
 image/jpeg=pix.desktop;
+image/png=pix.desktop;
 image/svg+xml=pix.desktop;
 text/html=google-chrome.desktop
 text/markdown=sublime-text_subl.desktop;
