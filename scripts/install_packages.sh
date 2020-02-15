@@ -7,16 +7,17 @@ echo_green "Installing packages"
 PACKAGES="gnome-keyring kgpg seahorse pix gimp lollypop telegram-desktop \
 deja-dup timeshift paper-icon-theme-git latte-dock neofetch lolcat gutenprint \
 ttf-opensans grub-customizer gparted net-tools zip unzip yay flameshot \
-fish gocryptfs etcher time"
+fish gocryptfs etcher time tor torsocks inotify-tools transmission-qt \
+graphviz"
 sudo pamac install $PACKAGES --no-confirm
 
 
 ################################################################
 echo_green "Installing AUR packages"
 
-PACKAGES_AUR="tunnelbear google-chrome dropbox tor-browser gitkraken btrbk \
-sweet-theme-git ruby-fusuma gotop"
-yay -S --needed --noconfirm --batchinstall --noredownload --norebuild --nopgpfetch $PACKAGES_AUR 
+PACKAGES_AUR="tunnelbear google-chrome gitkraken btrbk sweet-theme-git ruby-fusuma \
+sweet-theme-git ruby-fusuma gotop ulauncher python37 dropbox tor-browser"
+yay -S --needed --noconfirm --batchinstall --noredownload --norebuild $PACKAGES_AUR 
 
 
 ################################################################
