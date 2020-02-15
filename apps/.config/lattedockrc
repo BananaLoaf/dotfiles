@@ -1,8 +1,20 @@
+[PlasmaRunnerManager]
+pluginWhiteList=desktopsessions,services,places,PowerDevil,calculator,unitconverter,shell,bookmarks,recentdocuments,locations,baloosearch
+
 [PlasmaThemeExtended]
 outlineWidth=1
 
+[PlasmaTransientsConfig]
+PreloadWeight=0
+enableKWinEdges=false
+raiseOnActivityChange=false
+raiseOnDesktopChange=false
+timerHide=700
+timerShow=200
+
 [ScreenConnectors]
 10=eDP1
+11=DP1
 
 [UniversalSettings]
 badges3DStyle=false
