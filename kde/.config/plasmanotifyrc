@@ -1,5 +1,6 @@
 [Applications][google-chrome]
 Seen=true
+ShowPopups=false
 
 [Applications][mailspring_mailspring]
 Seen=true

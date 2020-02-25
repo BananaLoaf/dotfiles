@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE xbel>
-<xbel xmlns:kdepriv="http://www.kde.org/kdepriv" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info" xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks">
+<xbel xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info" xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:kdepriv="http://www.kde.org/kdepriv">
  <bookmark href="file:///home/bark">
   <title>Home</title>
   <info>
@@ -302,6 +302,20 @@
    </metadata>
   </info>
  </bookmark>
+ <bookmark href="file:///home/bark/Datasets">
+  <title>Datasets</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name="folder-black"/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <ID>1582633268/0</ID>
+    <isSystemItem>false</isSystemItem>
+    <IsHidden>false</IsHidden>
+    <OnlyInApp></OnlyInApp>
+   </metadata>
+  </info>
+ </bookmark>
  <bookmark href="file:///home/bark/GoogleDrive">
   <title>GoogleDrive</title>
   <info>
@@ -330,4 +344,12 @@
    </metadata>
   </info>
  </bookmark>
+ <separator>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <UDI>/org/freedesktop/UDisks2/block_devices/loop15</UDI>
+    <isSystemItem>true</isSystemItem>
+   </metadata>
+  </info>
+ </separator>
 </xbel>
