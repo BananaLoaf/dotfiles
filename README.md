@@ -23,3 +23,9 @@ chmod +x kde/.config/autostart-scripts/*
 bash sync_app_settings.sh
 bash sync_kde_settings.sh
 ```
+
+## TODO
+
+1. Add Latte Separator - https://store.kde.org/p/1295376 installer
+2. Add Sweet KDE - https://store.kde.org/p/1294729 installer
+3. Add ChromeOS - https://store.kde.org/p/1354062 installer
