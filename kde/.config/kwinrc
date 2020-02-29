@@ -80,11 +80,11 @@ PopupHideDelay=1000
 TextOnly=false
 
 [TabBox]
-ActivitiesMode=1
+ActivitiesMode=0
 ApplicationsMode=0
 BorderActivate=9
 BorderAlternativeActivate=9
-DesktopMode=2
+DesktopMode=1
 HighlightWindows=true
 LayoutName=org.kde.breeze.desktop
 MinimizedMode=0
@@ -94,7 +94,7 @@ ShowTabBox=true
 SwitchingMode=0
 
 [TabBoxAlternative]
-ActivitiesMode=1
+ActivitiesMode=0
 ApplicationsMode=0
 DesktopMode=1
 HighlightWindows=true
