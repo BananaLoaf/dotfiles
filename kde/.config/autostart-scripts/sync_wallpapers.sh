@@ -1,7 +1,10 @@
 #!/bin/bash
 
-rsync -rtvu --delete $HOME/Projects/dotfiles/wallpapers/ $HOME/Pictures/Wallpapers
-while inotifywait -qr --event modify,create,delete,move $HOME/Pictures/Wallpapers/
+SRC="$HOME/.dotfiles/wallpapers/"
+DST="$HOME/.local/share/wallpapers/User-Wallpapers"
+
+rsync -rtvu --delete $SRC $DST
+while inotifywait -qr --event modify,create,delete,move $DST
 do
-	rsync -rtvu --delete $HOME/Pictures/Wallpapers/ $HOME/Projects/dotfiles/wallpapers/
+	rsync -rtvu --delete $DST/ $SRC
 done

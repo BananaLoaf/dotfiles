@@ -3,7 +3,7 @@
 
 ################################################################
 mkdir $HOME/Pictures/Screenshots
-mkdir $HOME/Pictures/Wallpapers
+mkdir $HOME/.local/share/wallpapers/User-Wallpapers
 
 ################################################################
 confirm_path
