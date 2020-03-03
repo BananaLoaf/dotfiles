@@ -4,7 +4,7 @@
 ################################################################
 echo_green "Removing packages"
 
-PACKAGES="firefox imagewriter gwenview kate konversation spectacle thunderbird yakuake kget"
+PACKAGES="firefox imagewriter gwenview kate konversation spectacle thunderbird yakuake kget zsh"
 for pkg in $PACKAGES
 do
 	sudo pamac remove $pkg
