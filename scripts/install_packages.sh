@@ -15,7 +15,7 @@ sudo pamac install $PACKAGES --no-confirm
 ################################################################
 echo_green "Installing AUR packages"
 
-PACKAGES_AUR="gcsfuse google-cloud-sdk tunnelbear google-chrome gitkraken btrbk sweet-theme-git ruby-fusuma \
+PACKAGES_AUR="buddhasay gcsfuse google-cloud-sdk tunnelbear google-chrome gitkraken btrbk sweet-theme-git ruby-fusuma \
 sweet-theme-git ruby-fusuma gotop ulauncher trezor-bridge-bin python37 dropbox tor-browser"
 yay -S --needed --noconfirm --batchinstall --noredownload --norebuild $PACKAGES_AUR 
 
