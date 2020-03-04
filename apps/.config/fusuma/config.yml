@@ -28,8 +28,8 @@ swipe:
 
 threshold:
   swipe: 0.5
-  pinch: 1
+  # pinch: 1
 
-# interval:
-#   swipe: 1
-#   pinch: 1 
+interval:
+  swipe: 0.5
+  # pinch: 1
