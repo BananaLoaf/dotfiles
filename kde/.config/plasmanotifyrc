@@ -1,6 +1,5 @@
 [Applications][google-chrome]
 Seen=true
-ShowPopups=false
 
 [Applications][mailspring_mailspring]
 Seen=true
@@ -9,6 +8,9 @@ Seen=true
 Seen=true
 
 [Applications][telegramdesktop]
+Seen=true
+
+[Applications][whatsdesk_whatsdesk]
 Seen=true
 
 [Notifications]

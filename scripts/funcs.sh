@@ -16,10 +16,16 @@ link ()
 {
     local SOURCE=$1
     local DEST=$2
-    echo "Linking $SOURCE -> $DEST"
-    mkdir -p $(dirname $DEST) # Make parent dir for destination
-    rm -r $DEST               # Remove existing destination
-    ln -s $SOURCE $DEST       # Link
+
+    if [ -f "$SOURCE" ] || [ -d "$SOURCE" ]
+    then
+    	echo_green "Linking $SOURCE -> $DEST"
+    	mkdir -p $(dirname $DEST) # Make parent dir for destination
+    	rm -r $DEST               # Remove existing destination
+    	ln -s $SOURCE $DEST       # Link
+    else
+    	echo_red "$SOURCE does not exist"
+	fi
 } 
 
 confirm_path ()
