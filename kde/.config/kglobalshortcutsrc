@@ -39,13 +39,18 @@ increase_volume=Volume Up,Volume Up,Increase Volume
 mic_mute=Microphone Mute,Microphone Mute,Mute Microphone
 mute=Volume Mute,Volume Mute,Mute
 
+[krunner.desktop]
+RunClipboard=none,Alt+Shift+F2,Run command on clipboard contents
+_k_friendly_name=KRunner
+_launch=\t\tSearch,Alt+Space\tAlt+F2\tSearch,KRunner
+
 [ksmserver]
 Halt Without Confirmation=none,none,Halt Without Confirmation
 Lock Session=Meta+L\t\tScreensaver,Meta+L\tCtrl+Alt+L\tScreensaver,Lock Session
 Log Out=none,none,Log Out
 Log Out Without Confirmation=none,none,Log Out Without Confirmation
 Reboot Without Confirmation=,none,Reboot Without Confirmation
-_k_friendly_name=System Settings
+_k_friendly_name=ksmserver
 
 [kwin]
 Activate Window Demanding Attention=Meta+A,Ctrl+Alt+A,Activate Window Demanding Attention
@@ -70,10 +75,10 @@ Show Desktop=,Meta+D,Show Desktop
 ShowDesktopGrid=Meta+F8,Ctrl+F8,Show Desktop Grid
 Sphere=none,none,Desktop Sphere
 Suspend Compositing=Alt+Shift+F12,Alt+Shift+F12,Suspend Compositing
-Switch One Desktop Down=,none,Switch One Desktop Down
-Switch One Desktop Up=,none,Switch One Desktop Up
-Switch One Desktop to the Left=Ctrl+Alt+Left,none,Switch One Desktop to the Left
-Switch One Desktop to the Right=Ctrl+Alt+Right,none,Switch One Desktop to the Right
+Switch One Desktop Down=,Meta+Ctrl+Down,Switch One Desktop Down
+Switch One Desktop Up=,Meta+Ctrl+Up,Switch One Desktop Up
+Switch One Desktop to the Left=Ctrl+Alt+Left,Meta+Ctrl+Left,Switch One Desktop to the Left
+Switch One Desktop to the Right=Ctrl+Alt+Right,Meta+Ctrl+Right,Switch One Desktop to the Right
 Switch Window Down=Meta+Alt+Down,Meta+Alt+Down,Switch to Window Below
 Switch Window Left=Meta+Alt+Left,Meta+Alt+Left,Switch to Window to the Left
 Switch Window Right=Meta+Alt+Right,Meta+Alt+Right,Switch to Window to the Right
@@ -280,7 +285,7 @@ Turn Off Screen=none,none,Turn Off Screen
 _k_friendly_name=Power Management
 
 [plasmashell]
-_k_friendly_name=Plasma
+_k_friendly_name=Latte Dock
 activate task manager entry 1=,Meta+1,Activate Task Manager Entry 1
 activate task manager entry 10=,Meta+0,Activate Task Manager Entry 10
 activate task manager entry 2=,Meta+2,Activate Task Manager Entry 2

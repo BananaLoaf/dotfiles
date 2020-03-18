@@ -24,6 +24,7 @@ MidButton;NoModifier=org.kde.paste
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][35]
+ItemGeometriesHorizontal=
 activityId=677dd158-06eb-415f-93ec-a5caa3095919
 formfactor=0
 immutability=1
@@ -41,11 +42,12 @@ PreloadWeight=0
 
 [Containments][35][General]
 ToolBoxButtonState=top
-ToolBoxButtonX=1882
+ToolBoxButtonX=1148
 showToolbox=false
+sortMode=-1
 
 [Containments][35][Wallpaper][org.kde.image][General]
-Image=file:///home/bark/.local/share/wallpapers/User-Wallpapers/nyu_jork_ssha_noch_neboskreby_118354_1920x1080.jpg
+Image=file:///home/bark/.local/share/wallpapers/user-wallpapers/@marko_oblak_art-Reflection.png
 
 [Containments][36]
 activityId=677dd158-06eb-415f-93ec-a5caa3095919
@@ -59,6 +61,9 @@ wallpaperplugin=org.kde.image
 [Containments][36][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
+
+[Containments][36][Configuration]
+PreloadWeight=0
 
 [Containments][36][General]
 showToolbox=false
@@ -78,6 +83,9 @@ wallpaperplugin=org.kde.image
 [Containments][37][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
+
+[Containments][37][Configuration]
+PreloadWeight=0
 
 [Containments][37][General]
 showToolbox=false

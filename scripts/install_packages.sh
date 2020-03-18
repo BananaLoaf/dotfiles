@@ -8,7 +8,7 @@ PACKAGES="gnome-keyring kgpg seahorse pix gimp lollypop telegram-desktop \
 deja-dup timeshift paper-icon-theme-git latte-dock neofetch lolcat gutenprint \
 ttf-opensans grub-customizer gparted net-tools zip unzip yay flameshot \
 fish gocryptfs etcher time tor torsocks inotify-tools transmission-qt \
-graphviz plasma-browser-integration"
+graphviz plasma-browser-integration firejail"
 sudo pamac install $PACKAGES --no-confirm
 
 
