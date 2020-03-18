@@ -1,5 +1,6 @@
 [PlasmaRunnerManager]
-pluginWhiteList=desktopsessions,services,places,PowerDevil,calculator,unitconverter,shell,bookmarks,recentdocuments,locations,baloosearch
+LaunchCounts=
+pluginWhiteList=services,desktopsessions,PowerDevil,calculator,unitconverter,shell,bookmarks,baloosearch,locations
 
 [PlasmaThemeExtended]
 outlineWidth=1
@@ -30,4 +31,4 @@ metaPressAndHoldEnabled=true
 mouseSensitivity=2
 screenTrackerInterval=2500
 showInfoWindow=true
-version=1
+version=2
