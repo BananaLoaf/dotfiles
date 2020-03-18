@@ -39,18 +39,13 @@ increase_volume=Volume Up,Volume Up,Increase Volume
 mic_mute=Microphone Mute,Microphone Mute,Mute Microphone
 mute=Volume Mute,Volume Mute,Mute
 
-[krunner.desktop]
-RunClipboard=none,Alt+Shift+F2,Run command on clipboard contents
-_k_friendly_name=KRunner
-_launch=\t\tSearch,Alt+Space\tAlt+F2\tSearch,KRunner
-
 [ksmserver]
 Halt Without Confirmation=none,none,Halt Without Confirmation
 Lock Session=Meta+L\t\tScreensaver,Meta+L\tCtrl+Alt+L\tScreensaver,Lock Session
 Log Out=none,none,Log Out
 Log Out Without Confirmation=none,none,Log Out Without Confirmation
 Reboot Without Confirmation=,none,Reboot Without Confirmation
-_k_friendly_name=ksmserver
+_k_friendly_name=System Settings
 
 [kwin]
 Activate Window Demanding Attention=Meta+A,Ctrl+Alt+A,Activate Window Demanding Attention
@@ -268,6 +263,10 @@ stopmedia=Media Stop,Media Stop,Stop media playback
 _k_friendly_name=Dolphin
 _launch=Meta+E,Meta+E,Dolphin
 
+[org.kde.plasma.emojier.desktop]
+_k_friendly_name=Emoji Selector
+_launch=Meta+.,Meta+.,Emoji Selector
+
 [org_kde_powerdevil]
 Decrease Keyboard Brightness=Keyboard Brightness Down,Keyboard Brightness Down,Decrease Keyboard Brightness
 Decrease Screen Brightness=Monitor Brightness Down,Monitor Brightness Down,Decrease Screen Brightness
@@ -305,3 +304,6 @@ show dashboard=,Ctrl+F12,Show Desktop
 show-barcode=,none,Show Barcode...
 show-on-mouse-pos=,none,Open Klipper at Mouse Position
 stop current activity=,Meta+S,Stop Current Activity
+switch to next activity=none,none,Switch to Next Activity
+switch to previous activity=none,none,Switch to Previous Activity
+toggle do not disturb=none,none,Toggle do not disturb
