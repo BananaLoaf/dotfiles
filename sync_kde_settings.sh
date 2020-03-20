@@ -7,7 +7,7 @@ cd kde
 
 ################################################################
 echo_green "Linking KDE config files"
-for dirname in ".config" ".kde4/apps" ".kde4/share"
+for dirname in ".config" ".kde4/apps" ".kde4/share" ".local/share/plasma/plasmoids"
 do
     for basename in $(ls $dirname)
     do
