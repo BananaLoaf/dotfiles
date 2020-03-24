@@ -26,7 +26,7 @@ echo_green "Installing SNAP packages"
 
 PACKAGES_SNAP_CLASSIC="clion pycharm-community sublime-text"
 PACKAGES_SNAP="spotify google-play-music-desktop-player whatsdesk \
-discord mailspring protonmail-desktop-unofficial"
+discord mailspring protonmail-desktop-unofficial slack"
 
 for pkg in $PACKAGES_SNAP_CLASSIC
 do
