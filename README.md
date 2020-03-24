@@ -22,6 +22,7 @@ bash scripts/install_packages.sh
 chmod +x kde/.config/autostart-scripts/*
 bash sync_app_settings.sh
 bash sync_kde_settings.sh
+bash sync_theme.sh
 ```
 
 ## TODO
