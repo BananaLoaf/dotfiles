@@ -11,3 +11,4 @@ for dirname in ".local/share/aurorae/themes/Abyss-Dark" ".local/share/plasma/des
 do
     link $PWD/$dirname $HOME/$dirname
 done
+link $PWD/.local/share/color-schemes $HOME/.kde4/apps/color-schemes
