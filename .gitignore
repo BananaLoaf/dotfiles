@@ -10,5 +10,3 @@ apps/.config/latte/Extended.layout.latte
 apps/.config/latte/Plasma.layout.latte
 
 apps/.config/latte/Unity.layout.latte
-
-theme/.local/share/color-schemes/[!Abyss]*.colors
