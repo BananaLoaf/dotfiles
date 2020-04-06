@@ -1,30 +1,23 @@
 swipe:
   3:
     left:
-      command: "qdbus org.kde.kglobalaccel /component/kwin invokeShortcut 'Switch to Next Desktop'"
+      command: "qdbus org.kde.kglobalaccel /component/kwin invokeShortcut 'Switch One Desktop to the Right'"
     right:
-      command: "qdbus org.kde.kglobalaccel /component/kwin invokeShortcut 'Switch to Previous Desktop'"
+      command: "qdbus org.kde.kglobalaccel /component/kwin invokeShortcut 'Switch One Desktop to the Left'"
     up:
-      command: "xdotool key super+F10"  # Show all opened apps
+      command: "qdbus org.kde.kglobalaccel /component/kwin invokeShortcut 'Switch One Desktop Down'"
     down:
-      command: "xdotool key Escape"
+      command: "qdbus org.kde.kglobalaccel /component/kwin invokeShortcut 'Switch One Desktop Up'"
   4:
     left:
-      command: "qdbus org.kde.kglobalaccel /component/kwin invokeShortcut 'Window One Desktop to the Right'"
+      command: "qdbus org.kde.kglobalaccel /component/kwin invokeShortcut 'Window to Next Desktop'"
     right:
-      command: "qdbus org.kde.kglobalaccel /component/kwin invokeShortcut 'Window One Desktop to the Left'"
+      command: "qdbus org.kde.kglobalaccel /component/kwin invokeShortcut 'Window to Previous Desktop'"
     up:
       command: "qdbus org.kde.kglobalaccel /component/kwin invokeShortcut ShowDesktopGrid"
     down:
       command: "qdbus org.kde.kglobalaccel /component/kwin invokeShortcut MinimizeAll"
-# pinch:
-#   2:
-#     in:
-#       command: 'xdotool key ctrl+plus'
-#       threshold: 0.1
-#     out:
-#       command: 'xdotool key ctrl+minus'
-#       threshold: 0.1
+
 
 threshold:
   swipe: 0.5
