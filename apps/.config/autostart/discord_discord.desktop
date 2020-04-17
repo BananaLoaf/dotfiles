@@ -2,10 +2,10 @@
 Categories=Network;InstantMessaging;
 Comment[en_US]=All-in-one voice and text chat for gamers that's free, secure, and works on both your desktop and phone.
 Comment=All-in-one voice and text chat for gamers that's free, secure, and works on both your desktop and phone.
-Exec=env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/discord_discord.desktop /var/lib/snapd/snap/bin/discord %U
+Exec=env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/discord_discord.desktop /var/lib/snapd/snap/bin/discord
 GenericName[en_US]=Internet Messenger
 GenericName=Internet Messenger
-Icon=/var/lib/snapd/snap/discord/101/usr/share/discord/discord.png
+Icon=/var/lib/snapd/snap/discord/109/usr/share/discord/discord.png
 MimeType=
 Name[en_US]=Discord
 Name=Discord

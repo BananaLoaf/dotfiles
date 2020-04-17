@@ -2,14 +2,14 @@
 Categories=Network;InstantMessaging;Qt;
 Comment[en_US]=Official desktop version of Telegram messaging app
 Comment=Official desktop version of Telegram messaging app
-Exec=telegram-desktop -many -workdir ~/.local/share/TelegramDesktop2/
+Exec=telegram-desktop -many -workdir ~/.local/share/TelegramDesktopSecond/
 GenericName[en_US]=
 GenericName=
 Icon=telegram
 Keywords=tg;chat;im;messaging;messenger;sms;tdesktop;
 MimeType=
-Name[en_US]=Telegram Desktop
-Name=Telegram Desktop
+Name[en_US]=Telegram Desktop Second
+Name=Telegram Desktop Second
 Path=
 StartupNotify=true
 StartupWMClass=TelegramDesktop
