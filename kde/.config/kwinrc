@@ -6,19 +6,10 @@ OpenGLIsUnsafe=false
 
 [Desktops]
 Id_1=556ce263-fc01-40f9-be4a-368a7d5ac44f
-Id_2=0f65db95-d1ae-4c57-b5e0-93137e753f4f
-Id_3=32bbd90d-2032-462c-b943-9998ceb8e214
-Id_4=489b3045-4c40-4a10-a495-587554db510b
-Id_5=c951e1e7-3dbb-49c0-bc06-78425b701178
-Id_6=03e3e741-0f2b-4420-83e4-ecba81f6fdba
-Id_7=8c9cae15-534f-4583-ba94-eaf345e0a820
-Id_8=e89df785-34d3-4d3b-8a8a-c47349376291
-Id_9=1b78b985-3fc6-4072-9345-51b586080203
-Name_7=New Desktop
-Name_8=New Desktop
-Name_9=New Desktop
-Number=9
-Rows=3
+Id_2=1b78b985-3fc6-4072-9345-51b586080203
+Name_2=New Desktop
+Number=2
+Rows=1
 
 [Effect-CoverSwitch]
 TabBox=false
@@ -73,7 +64,6 @@ CommandWindow3=Activate and pass click
 CommandWindowWheel=Scroll
 
 [Plugins]
-desktopchangeosdEnabled=false
 highlightwindowEnabled=true
 kwin4_effect_dimscreenEnabled=true
 minimizeallEnabled=true
@@ -83,8 +73,7 @@ videowallEnabled=false
 windowgeometryEnabled=false
 
 [Script-desktopchangeosd]
-PopupHideDelay=1000
-TextOnly=false
+PopupHideDelay=500
 
 [TabBox]
 ActivitiesMode=0
