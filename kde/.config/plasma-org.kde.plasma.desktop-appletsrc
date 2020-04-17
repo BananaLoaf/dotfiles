@@ -91,7 +91,8 @@ PreloadWeight=0
 showToolbox=false
 
 [Containments][37][Wallpaper][org.kde.image][General]
-Image=file:///home/bark/.local/share/wallpapers/User-Wallpapers/nyu_jork_ssha_noch_neboskreby_118354_1920x1080.jpg
+Image=file:///home/bark/.local/share/wallpapers/user-wallpapers/@marko_oblak_art-Reflection.png
 
 [ScreenMapping]
 itemsOnDisabledScreens=
+screenMapping=
