@@ -1,22 +1,28 @@
 swipe:
   3:
     left:
-      command: "qdbus org.kde.kglobalaccel /component/kwin invokeShortcut 'Switch One Desktop to the Right'"
+      # command: "xdotool key alt+Right" # History forward
+      command: "PNAME=$(ps -p $(xdotool getwindowfocus getwindowpid) -o comm=); if [[ $PNAME == chrome ]]; then xdotool key alt+Right; fi"
     right:
-      command: "qdbus org.kde.kglobalaccel /component/kwin invokeShortcut 'Switch One Desktop to the Left'"
+      # command: "xdotool key alt+Left" # History back
+      command: "PNAME=$(ps -p $(xdotool getwindowfocus getwindowpid) -o comm=); if [[ $PNAME == chrome ]]; then xdotool key alt+Left; fi"
     up:
-      command: "qdbus org.kde.kglobalaccel /component/kwin invokeShortcut 'Switch One Desktop Down'"
+      command: "xdotool key super+F9"
     down:
-      command: "qdbus org.kde.kglobalaccel /component/kwin invokeShortcut 'Switch One Desktop Up'"
+      command: "xdotool key Escape"
+  
   4:
     left:
-      command: "qdbus org.kde.kglobalaccel /component/kwin invokeShortcut 'Window to Next Desktop'"
+      command: "qdbus org.kde.kglobalaccel /component/kwin invokeShortcut 'Switch to Next Desktop'"
     right:
-      command: "qdbus org.kde.kglobalaccel /component/kwin invokeShortcut 'Window to Previous Desktop'"
+      command: "qdbus org.kde.kglobalaccel /component/kwin invokeShortcut 'Switch to Previous Desktop'"
     up:
       command: "qdbus org.kde.kglobalaccel /component/kwin invokeShortcut ShowDesktopGrid"
     down:
-      command: "qdbus org.kde.kglobalaccel /component/kwin invokeShortcut MinimizeAll"
+      command: "xdotool key Escape"
+      keypress:
+        LEFTALT:
+          command: "qdbus org.kde.kglobalaccel /component/kwin invokeShortcut MinimizeAll"
 
 
 threshold:
@@ -26,3 +32,11 @@ threshold:
 interval:
   swipe: 0.5
   # pinch: 1
+
+
+plugin: 
+  inputs:
+    libinput_command_input: # options for lib/plugin/inputs/libinput_command_input
+      # enable-tap: true # click to tap
+      # enable-dwt: true # disable tap while typing
+      show-keycodes: true # https://github.com/iberianpig/fusuma-plugin-keypress#add-show-keycode-option
