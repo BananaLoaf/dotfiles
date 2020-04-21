@@ -18,4 +18,3 @@ inode/directory=org.kde.dolphin.desktop;
 text/html=google-chrome.desktop
 text/markdown=sublime-text_subl.desktop;
 text/plain=sublime-text_subl.desktop;
-x-scheme-handler/mailto=mailspring_mailspring.desktop;

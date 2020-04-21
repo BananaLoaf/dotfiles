@@ -126,7 +126,7 @@
 
 ### Window management - Window Rules
 ```
-???
+.config/kwinrulesrc ✓
 ```
 
 
@@ -192,7 +192,7 @@
 
 #### Email client
 ```
-.config/emaildefaults ✓
+.config/emaildefaults
 .config/mimeapps.list ✓
 ```
 
