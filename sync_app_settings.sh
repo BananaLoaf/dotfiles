@@ -12,6 +12,7 @@ echo_green "Setting up applications"
 link $PWD/.config/autostart $HOME/.config/autostart
 link $PWD/.config/autostart-scripts $HOME/.config/autostart-scripts
 
+
 # fish
 link $PWD/.config/fish $HOME/.config/fish
 # Change shell if not changed
@@ -22,6 +23,7 @@ then
     chsh -s $NEW_SHELL
 fi
 
+
 # fusuma
 link $PWD/.config/fusuma $HOME/.config/fusuma
 if groups $USER | grep -q -v input
@@ -30,16 +32,20 @@ then
     sudo gpasswd -a $USER input        
 fi
 
+
 # latte-dock
 link $PWD/.config/latte $HOME/.config/latte
 link $PWD/lattedockrc $HOME/lattedockrc
 
+
 # ulauncher
 link $PWD/.config/ulauncher $HOME/.config/ulauncher
+
 
 # dolphin
 link $PWD/.config/dolphinrc $HOME/.config/dolphinrc
 link $PWD/.local/share/user-places.xbel $HOME/.local/share/user-places.xbel
+
 
 # konsole
 link $PWD/.local/share/konsole $HOME/.local/share/konsole
