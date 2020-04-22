@@ -47,3 +47,10 @@ link $PWD/.config/plasmanotifyrc $HOME/.config/plasmanotifyrc
 link $PWD/.config/plasmashellrc $HOME/.config/plasmashellrc
 
 link $PWD/.config/mimeapps.list $HOME/.config/mimeapps.list
+
+
+echo_green "Setting up KDE theming"
+link $PWD/.local/share/aurorae $HOME/.local/share/aurorae
+link $PWD/.local/share/color-schemes $HOME/.local/share/color-schemes
+link $PWD/.local/share/plasma/desktoptheme $HOME/.local/share/plasma/desktoptheme
+link $PWD/.local/share/plasma/look-and-feel $HOME/.local/share/plasma/look-and-feel
