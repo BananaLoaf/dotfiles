@@ -39,8 +39,8 @@ link $PWD/.config/kactivitymanagerd-statsrc $HOME/.config/kactivitymanagerd-stat
 link $PWD/.config/kactivitymanagerdrc $HOME/.config/kactivitymanagerdrc
 link $PWD/.config/ksmserverrc $HOME/.config/ksmserverrc
 link $PWD/.config/kwinrc $HOME/.config/kwinrc
-link $PWD/.local/kwin/scripts $HOME/.local/kwin/scripts
-link $PWD/.local/plasma/plasmoids $HOME/.local/plasma/plasmoids
+link $PWD/.local/share/kwin/scripts $HOME/.local/share/kwin/scripts
+link $PWD/.local/share/plasma/plasmoids $HOME/.local/share/plasma/plasmoids
 link $PWD/.config/kwinrulesrc $HOME/.config/kwinrulesrc
 
 link $PWD/.config/plasma-org.kde.plasma.desktop-appletsrc $HOME/.config/plasma-org.kde.plasma.desktop-appletsrc

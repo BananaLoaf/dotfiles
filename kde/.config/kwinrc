@@ -7,7 +7,9 @@ OpenGLIsUnsafe=false
 [Desktops]
 Id_1=556ce263-fc01-40f9-be4a-368a7d5ac44f
 Id_2=435f5d1e-56e6-411a-a4f1-4aba790029f7
-Number=2
+Id_3=9ca77f6f-07a6-41e6-b99c-cbe54b79d84a
+Id_4=13880110-3029-48dd-aafa-3023baaa327e
+Number=4
 Rows=1
 
 [Effect-CoverSwitch]
@@ -82,7 +84,7 @@ BorderActivate=9
 BorderAlternativeActivate=9
 DesktopMode=1
 HighlightWindows=true
-LayoutName=org.kde.breeze.desktop
+LayoutName=MediumRoundedDark
 MinimizedMode=0
 MultiScreenMode=0
 ShowDesktopMode=0
@@ -141,4 +143,4 @@ ButtonsOnRight=HIAX
 CloseOnDoubleClickOnMenu=false
 ShowToolTips=true
 library=org.kde.kwin.aurorae
-theme=__aurorae__svg__Sweet-Dark
+theme=__aurorae__svg__PearDarkOpaque

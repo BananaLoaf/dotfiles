@@ -35,7 +35,7 @@ fi
 
 # latte-dock
 link $PWD/.config/latte $HOME/.config/latte
-link $PWD/lattedockrc $HOME/lattedockrc
+link $PWD/.config/lattedockrc $HOME/.config/lattedockrc
 
 
 # ulauncher
