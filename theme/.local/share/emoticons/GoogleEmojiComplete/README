@@ -1,0 +1,16 @@
+For a mysterious reason, selecting the new theme in System Settings
+causes changes in some emoticons, that don't work. So, to prevent
+this issue, after installing the theme and before enabling it go in
+
+$HOME/.kde/share/emoticons/Google*
+
+or
+
+$HOME/.kde4/share/emoticons/Google*
+
+(depending on your distro) and change attributes of emoticons.xml
+removing write permission.
+
+If you miss this step and you notice strange characters on chat log,
+I have included a backup file of the theme file that you can use to
+restore defaults and adjust permissions. 
