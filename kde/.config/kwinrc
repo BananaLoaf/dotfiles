@@ -65,6 +65,8 @@ CommandWindow3=Activate and pass click
 CommandWindowWheel=Scroll
 
 [Plugins]
+dynamicVirtualDesktopsEnabled=false
+dynamic_workspacesEnabled=false
 highlightwindowEnabled=true
 kwin4_effect_dimscreenEnabled=true
 minimizeallEnabled=true
