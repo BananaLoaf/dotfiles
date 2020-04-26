@@ -63,7 +63,7 @@ Item {
 
             AnimatedImage {
                 id: face
-                source: "artwork/gifs/"+wrapper.name+".gif"
+                source: "/usr/share/sddm/faces/"+name+".face.icon"
                 paused: isCurrent ? false : true;
                 anchors.horizontalCenter: parent.horizontalCenter
                 anchors.verticalCenter: parent.verticalCenter
@@ -75,7 +75,7 @@ Item {
 
             AnimatedImage {
                 id: faceIcon
-                source: "artwork/gifs/default.gif"
+                source: "/usr/share/sddm/faces/"+name+".face.icon"
                 smooth: true
                 visible: false
                 anchors.horizontalCenter: parent.horizontalCenter
