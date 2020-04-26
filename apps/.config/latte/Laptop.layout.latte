@@ -44,6 +44,7 @@ PreloadWeight=0
 advanced=false
 appletOrder=2
 blurEnabled=false
+leftClickAction=PreviewWindows
 mouseWheelActions=false
 panelSize=100
 panelTransparency=50
@@ -52,6 +53,7 @@ shadowSize=35
 shadows=All
 showGlow=false
 titleTooltips=false
+zoomLevel=2
 
 [Containments][1][Indicator]
 customType=
@@ -59,6 +61,10 @@ enabled=true
 enabledForApplets=true
 padding=0.07999999821186066
 type=org.kde.latte.default
+
+[Containments][1][Indicator][org.kde.latte.default][General]
+extraDotOnActive=true
+minimizedTaskColoredDifferently=true
 
 [Containments][15]
 PreloadWeight=0
@@ -75,7 +81,7 @@ DialogHeight=895
 DialogWidth=866
 
 [Containments][15][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][15][General]
 communicationsShown=false
@@ -127,7 +133,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][16][Applets][42][Configuration]
-PreloadWeight=9
+PreloadWeight=0
 
 [Containments][16][Applets][42][Configuration][ConfigDialog]
 DialogHeight=540
@@ -219,7 +225,7 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][16][Applets][53][Configuration]
-PreloadWeight=41
+PreloadWeight=0
 
 [Containments][16][Applets][54]
 immutability=1
@@ -333,7 +339,7 @@ DialogHeight=899
 DialogWidth=1224
 
 [Containments][17][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][17][General]
 applicationStatusShown=false
@@ -371,7 +377,7 @@ immutability=1
 plugin=org.kde.windowbuttons
 
 [Containments][4][Applets][139][Configuration]
-PreloadWeight=26
+PreloadWeight=0
 
 [Containments][4][Applets][139][Configuration][ConfigDialog]
 DialogHeight=540
@@ -391,7 +397,7 @@ immutability=1
 plugin=org.kde.windowtitle
 
 [Containments][4][Applets][140][Configuration]
-PreloadWeight=26
+PreloadWeight=0
 
 [Containments][4][Applets][140][Configuration][ConfigDialog]
 DialogHeight=540
@@ -424,7 +430,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][4][Applets][27][Configuration]
-PreloadWeight=44
+PreloadWeight=0
 
 [Containments][4][Applets][27][Configuration][ConfigDialog]
 DialogHeight=620
@@ -449,7 +455,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][4][Applets][29][Configuration]
-PreloadWeight=30
+PreloadWeight=0
 
 [Containments][4][Applets][30]
 immutability=1
@@ -470,14 +476,14 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][4][Applets][32][Configuration]
-PreloadWeight=51
+PreloadWeight=0
 
 [Containments][4][Applets][33]
 immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][4][Applets][33][Configuration]
-PreloadWeight=14
+PreloadWeight=0
 
 [Containments][4][Applets][33][Configuration][ConfigDialog]
 DialogHeight=540
@@ -499,11 +505,11 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][4][Applets][48][Configuration]
-PreloadWeight=8
+PreloadWeight=0
 SystrayContainmentId=49
 
 [Containments][4][ConfigDialog]
-DialogHeight=891
+DialogHeight=892
 DialogWidth=539
 
 [Containments][4][Configuration]
@@ -511,19 +517,24 @@ PreloadWeight=0
 
 [Containments][4][General]
 advanced=false
+animationLauncherBouncing=false
+animationWindowAddedInGroup=false
+animationWindowInAttention=false
 appletOrder=140;46;25;48;29;32;27;33;28;30;139
 autoDecreaseIconSize=false
 blurEnabled=false
+dragActiveWindowEnabled=true
 durationTime=x1
 iconSize=23
 lockedZoomApplets=140;46;25;48;29;32;27;33;28;30;139
 mouseWheelActions=false
 panelPosition=10
-panelShadows=false
 panelSize=100
 panelTransparency=0
+plasmaBackgroundForPopups=true
 shadowOpacity=55
 shadowSize=40
+shadows=None
 shrinkThickMargins=true
 solidBackgroundForMaximized=true
 splitterPosition=2
@@ -553,35 +564,35 @@ immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][49][Applets][131][Configuration]
-PreloadWeight=23
+PreloadWeight=5
 
 [Containments][49][Applets][132]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][49][Applets][132][Configuration]
-PreloadWeight=18
+PreloadWeight=0
 
 [Containments][49][Applets][133]
 immutability=1
 plugin=org.kde.kscreen
 
 [Containments][49][Applets][133][Configuration]
-PreloadWeight=23
+PreloadWeight=0
 
 [Containments][49][Applets][134]
 immutability=1
 plugin=org.kde.kdeconnect
 
 [Containments][49][Applets][134][Configuration]
-PreloadWeight=23
+PreloadWeight=0
 
 [Containments][49][Applets][136]
 immutability=1
 plugin=org.kde.plasma.printmanager
 
 [Containments][49][Applets][136][Configuration]
-PreloadWeight=33
+PreloadWeight=0
 
 [Containments][49][ConfigDialog]
 DialogHeight=899
@@ -591,10 +602,10 @@ DialogWidth=1224
 applicationStatusShown=false
 communicationsShown=false
 extraItems=KDE Daemon,TelegramDesktop,discord1,flameshot,MSM Notifier for Plasma5,Protonmail Desktop (unofficial)1,ulauncher,whatsdesk1,Update Manager,Slack1,Mailspring1,remmina-icon,steam,Skype1,org.kde.plasma.mediacontroller,org.kde.plasma.devicenotifier,org.kde.kscreen,org.kde.kdeconnect,org.kde.plasma.printmanager,org.kde.plasma.clipboard
-hiddenItems=flameshot,MSM Notifier for Plasma5,Protonmail Desktop (unofficial)1,ulauncher,Slack1,Mailspring1,remmina-icon,steam
+hiddenItems=flameshot,MSM Notifier for Plasma5,Protonmail Desktop (unofficial)1,ulauncher,Slack1,Mailspring1,remmina-icon
 knownItems=org.kde.plasma.printmanager,org.kde.plasma.keyboardindicator,org.kde.kdeconnect,org.kde.plasma.volume,org.kde.plasma.clipboard,org.kde.plasma.notifications,org.kde.plasma.networkmanagement,org.kde.plasma.devicenotifier,org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.mediacontroller,org.kde.plasma.nightcolorcontrol
 miscellaneousShown=false
-shownItems=KDE Daemon,Skype1,discord1,TelegramDesktop,whatsdesk1,Update Manager
+shownItems=KDE Daemon,Skype1,discord1,TelegramDesktop,whatsdesk1,Update Manager,steam
 systemServicesShown=false
 
 [LayoutSettings]
