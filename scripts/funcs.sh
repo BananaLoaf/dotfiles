@@ -22,7 +22,7 @@ link ()
     	echo_green "Linking $SOURCE -> $DEST"
     	mkdir -p $(dirname $DEST) # Make parent dir for destination
     	rm -f -r $DEST            # Remove existing destination
-    	ln -s $SOURCE $DEST       # Link
+    	ln -s -f $SOURCE $DEST    # Link
     else
     	echo_red "$SOURCE does not exist"
 	fi
