@@ -131,7 +131,7 @@ widgetStyle=breeze
 Allow Expansion=false
 Automatically select filename extension=true
 Breadcrumb Navigation=false
-Decoration position=2
+Decoration position=0
 LocationCombo Completionmode=5
 PathCombo Completionmode=5
 Show Bookmarks=false
@@ -144,7 +144,7 @@ Sort by=Name
 Sort directories first=true
 Sort reversed=false
 Speedbar Width=111
-View Style=Simple
+View Style=Detail
 
 [WM]
 activeBackground=49,54,59

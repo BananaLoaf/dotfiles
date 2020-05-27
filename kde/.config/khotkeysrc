@@ -915,6 +915,7 @@ Theme[$d]
 ChangeCursor[$d]
 ColorScheme[$d]
 LookAndFeelPackage[$d]
+SingleClick[$d]
 contrast[$d]
 widgetStyle[$d]
 
