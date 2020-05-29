@@ -1,9 +1,5 @@
 # dotfiles for Manjaro KDE 20 on Lenovo S940
 
-## Guide
-
-Install ChromeOS and Sweet global themes manually
-
 ```bash
 # Prepare the repo
 git clone https://github.com/BananaLoaf/dotfiles.git $HOME/.dotfiles && cd $HOME/.dotfiles

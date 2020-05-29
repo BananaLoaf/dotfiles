@@ -48,4 +48,5 @@ link $PWD/.local/share/user-places.xbel $HOME/.local/share/user-places.xbel
 
 
 # konsole
+link $PWD/.config/konsolerc $HOME/.config/konsolerc
 link $PWD/.local/share/konsole $HOME/.local/share/konsole
