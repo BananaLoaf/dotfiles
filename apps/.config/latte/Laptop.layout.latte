@@ -407,7 +407,7 @@ DialogWidth=720
 containmentType=Latte
 lengthLastMargin=10
 lengthMarginsLock=false
-maximumLength=400
+maximumLength=300
 style=ApplicationTitle
 
 [Containments][4][Applets][25]
@@ -457,20 +457,6 @@ plugin=org.kde.plasma.bluetooth
 [Containments][4][Applets][29][Configuration]
 PreloadWeight=0
 
-[Containments][4][Applets][30]
-immutability=1
-plugin=org.kde.plasma.lock_logout
-
-[Containments][4][Applets][30][Configuration]
-PreloadWeight=0
-
-[Containments][4][Applets][30][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][4][Applets][30][Configuration][General]
-show_lockScreen=false
-
 [Containments][4][Applets][32]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
@@ -483,7 +469,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][4][Applets][33][Configuration]
-PreloadWeight=0
+PreloadWeight=4
 
 [Containments][4][Applets][33][Configuration][ConfigDialog]
 DialogHeight=540
@@ -505,7 +491,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][4][Applets][48][Configuration]
-PreloadWeight=0
+PreloadWeight=10
 SystrayContainmentId=49
 
 [Containments][4][ConfigDialog]
@@ -520,13 +506,14 @@ advanced=false
 animationLauncherBouncing=false
 animationWindowAddedInGroup=false
 animationWindowInAttention=false
-appletOrder=140;46;25;48;29;32;27;33;28;30;139
+appletOrder=140;46;25;48;141;29;32;27;33;28;139
 autoDecreaseIconSize=false
 blurEnabled=false
 dragActiveWindowEnabled=true
 durationTime=x1
 iconSize=23
-lockedZoomApplets=140;46;25;48;29;32;27;33;28;30;139
+inConfigureAppletsMode=true
+lockedZoomApplets=140;46;25;48;29;32;27;33;28;139
 mouseWheelActions=false
 panelPosition=10
 panelSize=100
@@ -564,14 +551,14 @@ immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][49][Applets][131][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][49][Applets][132]
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][49][Applets][132][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][49][Applets][133]
 immutability=1
@@ -593,10 +580,6 @@ plugin=org.kde.plasma.printmanager
 
 [Containments][49][Applets][136][Configuration]
 PreloadWeight=0
-
-[Containments][49][Applets][141]
-immutability=1
-plugin=org.kde.plasma.mediacontroller
 
 [Containments][49][ConfigDialog]
 DialogHeight=899
