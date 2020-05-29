@@ -1,3 +1,6 @@
+[PlasmaTransientsConfig]
+PreloadWeight=0
+
 [PlasmaViews][Panel 1][Defaults]
 thickness=45
 
@@ -42,6 +45,12 @@ thickness=45
 
 [PlasmaViews][Panel 1][Horizontal864]
 thickness=45
+
+[PlasmaViews][Panel 40][Defaults]
+thickness=36
+
+[PlasmaViews][Panel 40][Horizontal1920]
+thickness=36
 
 [ScreenConnectors]
 0=eDP1

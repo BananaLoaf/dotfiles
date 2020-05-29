@@ -8,7 +8,6 @@ SED_PATT=s:$OLD_LINE:$NEW_LINE:g
 if grep -q $OLD_LINE /etc/openswap.conf
 then
     sudo sed -i "$SED_PATT" /etc/openswap.conf
-    sudo mkinitcpio -p linux54
 else
     echo_red "Swap is aready fixed!"
 fi

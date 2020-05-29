@@ -3,7 +3,7 @@
 SRC="$HOME/.dotfiles/wallpapers"
 DST="$HOME/.local/share/wallpapers/user-wallpapers"
 
-mkdir $DST
+mkdir -p $DST
 
 rsync -rtvu --delete $SRC/ $DST
 while inotifywait -qr --event modify,create,delete,move $SRC

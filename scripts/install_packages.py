@@ -126,9 +126,6 @@ if __name__ == "__main__":
 	print("Installing pacman packages")
 	os.system(f"sudo pacman -Sy --noconfirm --needed {' '.join(pacman_packages)}")
 
-	print("Installing aur packages")
-	os.system(f"yay -S --needed --noconfirm --batchinstall --noredownload --norebuild {' '.join(aur_packages)}")
-
 	print("Installing snap_classic packages")
 	for package in snap_classic_packages:
 		os.system(f"sudo snap install {package} --classic")
@@ -136,3 +133,7 @@ if __name__ == "__main__":
 	print("Installing snap packages")
 	for package in snap_packages:
 		os.system(f"sudo snap install {package}")
+
+	print("Installing aur packages")
+	os.system(f"yay -S --needed --noconfirm --batchinstall --noredownload --norebuild {' '.join(aur_packages)}")
+

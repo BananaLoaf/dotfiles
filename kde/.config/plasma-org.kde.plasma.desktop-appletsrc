@@ -23,7 +23,7 @@ run associated application=true
 MidButton;NoModifier=org.kde.paste
 RightButton;NoModifier=org.kde.contextmenu
 
-[Containments][38]
+[Containments][39]
 activityId=677dd158-06eb-415f-93ec-a5caa3095919
 formfactor=0
 immutability=1
@@ -32,14 +32,18 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][38][ConfigDialog]
-DialogHeight=1057
-DialogWidth=1920
+[Containments][39][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
-[Containments][38][Configuration]
-PreloadWeight=0
+[Containments][39][Configuration]
+PreloadWeight=42
 
-[Containments][38][Wallpaper][org.kde.image][General]
+[Containments][39][General]
+ToolBoxButtonState=topcenter
+ToolBoxButtonX=739
+
+[Containments][39][Wallpaper][org.kde.image][General]
 Image=file:///home/bark/.local/share/wallpapers/user-wallpapers/@marko_oblak_art-Lone_Peak.png
 
 [ScreenMapping]
