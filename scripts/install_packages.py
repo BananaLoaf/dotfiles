@@ -13,7 +13,7 @@ PACKAGES = {
         "strace": "pacman",
         "gocryptfs": "pacman",
         "tunnelbear": "aur",
-        "networkmanager-l2tp": "aur",
+        "networkmanager-l2tp": "aur"
     },
     "media": {
         "pix": "pacman",
@@ -27,26 +27,26 @@ PACKAGES = {
         "tor-browser": "aur",
         "dropbox": "aur",
         "spotify": "aur",
-        "google-play-music-desktop-player": "snap",
+        # "google-play-music-desktop-player": "snap",
     },
     "social": {
         "telegram-desktop": "pacman",
         "rocketchat-desktop": "aur",
-        "skype": "snap_classic",
+        # "skype": "snap_classic",
         "whatsdesk": "snap",
         "discord": "snap",
     },
     "development": {
         "dbeaver": "pacman",
-        "gcsfuse": "aur",
-        "google-cloud-sdk": "aur",
+        # "gcsfuse": "aur",
+        # "google-cloud-sdk": "aur",
         "gitkraken": "aur",
         "python37": "aur",
         "clion": "snap_classic",
         "pycharm-community": "snap_classic",
     },
     "personalization": {
-        "paper-icon-theme-git": "pacman",
+        # "paper-icon-theme-git": "pacman",
         "latte-dock": "pacman",
         "neofetch": "pacman",
         "lolcat": "pacman",
@@ -54,7 +54,7 @@ PACKAGES = {
         "plasma5-applets-window-buttons": "aur",
         "plasma5-applets-window-title": "aur",
         "buddhasay": "aur",
-        "sweet-theme-git": "aur",
+        # "sweet-theme-git": "aur",
         "ulauncher": "aur",
     },
     "backup": {
@@ -67,6 +67,7 @@ PACKAGES = {
         "ruby-fusuma-plugin-keypress": "aur.laptop"
     },
     "utilities": {
+        "xdotool": "pacman",
         "gutenprint": "pacman",
         "ttf-opensans": "pacman",
         "grub-customizer": "pacman",

@@ -8,8 +8,21 @@ cd theme
 ################################################################
 # SDDM THEME
 sudo cp -r $HOME/.icons/PearDarkCursors /usr/share/icons/
-sudo cp $PWD/kde_settings.conf /etc/sddm.conf.d/kde_settings.conf
 sudo cp -r $PWD/sugar-candy /usr/share/sddm/themes/sugar-candy
+
+sudo python -c "\
+import configparser;\
+config = configparser.ConfigParser();\
+config.optionxform=str;\
+config.read('/etc/sddm.conf');\
+\
+config['General']['Numlock'] = 'on';\
+config['Theme']['Current'] = 'sugar-candy';\
+config['Theme']['Theme'] = 'sugar-candy';\
+config['Theme']['CursorTheme'] = 'PearDarkCursors';\
+\
+file = open('/etc/sddm.conf', 'w');\
+config.write(file)"
 
 ################################################################
 echo_green "Setting up KDE theming"
