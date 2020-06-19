@@ -17,6 +17,7 @@ bash sync_theme.sh
 
 # Run other scripts
 bash scripts/fix_lusk_btrfs_swap.sh
+bash scripts/fix_vol_keys.sh
 # Other kernels have hardware issues (touchpad, no sound)
 sudo pacmac -S linux419
 ```
