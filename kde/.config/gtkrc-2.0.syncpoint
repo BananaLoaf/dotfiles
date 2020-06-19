@@ -1,5 +1,8 @@
-# created by KDE Plasma, пт апр. 24 05:09:43 2020
+# created by KDE Plasma, пт июн. 19 15:30:47 2020
 #
+
+gtk-alternative-button-order = 1
+
 style "default"
 {
   bg[NORMAL] = { 0.133, 0.133, 0.149 }

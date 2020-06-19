@@ -1,5 +1,7 @@
 #!/bin/sh
 
+SUFFIX=".syncpoint"
+
 echo_green ()
 {
     local TEXT=$1

@@ -8,13 +8,15 @@ cd apps
 ################################################################
 echo_green "Setting up applications"
 
-# autostart apps and scripts
-link $PWD/.config/autostart $HOME/.config/autostart
-link $PWD/.config/autostart-scripts $HOME/.config/autostart-scripts
+# Link files
+for sync_point in $(find . -name "*$SUFFIX")
+do
+	sync_point=${sync_point#"./"}
+
+    link $PWD/$sync_point $HOME/${sync_point%$SUFFIX}
+done
 
 
-# fish
-link $PWD/.config/fish $HOME/.config/fish
 # Change shell if not changed
 NEW_SHELL=/usr/bin/fish
 if [[ $SHELL != $NEW_SHELL ]]
@@ -25,28 +27,8 @@ fi
 
 
 # fusuma
-link $PWD/.config/fusuma $HOME/.config/fusuma
 if groups $USER | grep -q -v input
 then
     echo_green "Adding $USER to input group"
     sudo gpasswd -a $USER input        
 fi
-
-
-# latte-dock
-link $PWD/.config/latte $HOME/.config/latte
-link $PWD/.config/lattedockrc $HOME/.config/lattedockrc
-
-
-# ulauncher
-link $PWD/.config/ulauncher $HOME/.config/ulauncher
-
-
-# dolphin
-link $PWD/.config/dolphinrc $HOME/.config/dolphinrc
-link $PWD/.local/share/user-places.xbel $HOME/.local/share/user-places.xbel
-
-
-# konsole
-link $PWD/.config/konsolerc $HOME/.config/konsolerc
-link $PWD/.local/share/konsole $HOME/.local/share/konsole
