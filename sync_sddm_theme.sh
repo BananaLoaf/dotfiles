@@ -3,12 +3,14 @@
 
 ################################################################
 confirm_path
-cd theme
+cd sddm_theme
 
 ################################################################
-# SDDM THEME
-sudo cp -r $PWD/.icons.syncpoint/PearDarkCursors /usr/share/icons/
-sudo cp -r $PWD/sugar-candy /usr/share/sddm/themes/sugar-candy
+echo_green "Setting up SDDM theme"
+
+sudo cp $PWD/../kde/.face.syncpoint /usr/share/sddm/faces/$USER.face.icon
+sudo cp -r $PWD/../kde_theme/.icons.syncpoint/PearDarkCursors /usr/share/icons/
+sudo cp -r $PWD/sugar-candy /usr/share/sddm/themes/
 
 sudo python -c "\
 import configparser;\
@@ -23,14 +25,3 @@ config['Theme']['CursorTheme'] = 'PearDarkCursors';\
 \
 file = open('/etc/sddm.conf', 'w');\
 config.write(file)"
-
-################################################################
-echo_green "Setting up KDE theming"
-
-# Link files
-for sync_point in $(find . -name "*$SUFFIX")
-do
-	sync_point=${sync_point#"./"}
-
-    link $PWD/$sync_point $HOME/${sync_point%$SUFFIX}
-done

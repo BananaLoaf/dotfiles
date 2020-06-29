@@ -10,14 +10,16 @@ sudo pacman -Syu
 python scripts/install_packages.py
 
 # Sync settings
-chmod +x apps/.config/autostart-scripts/*
+chmod +x apps/.config/autostart-scripts.syncpoint/*
 bash sync_app_settings.sh
 bash sync_kde_settings.sh
-bash sync_theme.sh
+bash sync_sddm_theme.sh
+bash sync_kde_theme.sh
 
 # Run other scripts
 bash scripts/fix_lusk_btrfs_swap.sh
 bash scripts/fix_vol_keys.sh
+
 # Other kernels have hardware issues (touchpad, no sound)
-sudo pacmac -S linux419
+sudo pacman -S linux419
 ```

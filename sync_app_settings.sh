@@ -21,7 +21,6 @@ done
 NEW_SHELL=/usr/bin/fish
 if [[ $SHELL != $NEW_SHELL ]]
 then
-    echo_green "Changing default shell to fish"
     chsh -s $NEW_SHELL
 fi
 
@@ -29,6 +28,5 @@ fi
 # fusuma
 if groups $USER | grep -q -v input
 then
-    echo_green "Adding $USER to input group"
     sudo gpasswd -a $USER input        
 fi

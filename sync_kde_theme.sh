@@ -3,10 +3,10 @@
 
 ################################################################
 confirm_path
-cd kde
+cd kde_theme
 
 ################################################################
-echo_green "Setting up KDE"
+echo_green "Setting up KDE theme"
 
 # Link files
 for sync_point in $(find . -name "*$SUFFIX")
