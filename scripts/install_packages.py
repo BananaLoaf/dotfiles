@@ -31,7 +31,7 @@ PACKAGES = {
     "social": {
         "telegram-desktop": "pacman",
         "rocketchat-desktop": "aur",
-        "whatsapp-nativefier": "pacman",
+        "whatsapp-nativefier": "aur",
         "discord": "pacman",
     },
     "development": {
@@ -40,6 +40,7 @@ PACKAGES = {
         "python37": "aur",
         "clion": "aur",
         "pycharm-community-edition": "pacman",
+        "arduino": "pacman"
     },
     "personalization": {
         "latte-dock": "pacman",
