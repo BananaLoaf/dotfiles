@@ -1,5 +1,5 @@
-from typing import List
 import os
+import argparse
 
 
 PACKAGES = {
@@ -86,31 +86,35 @@ PACKAGES = {
 
 
 if __name__ == "__main__":
-	laptop = True
+	parser = argparse.ArgumentParser(description="Package installer")
+	parser.add_argument("-l", "--laptop", action="store_true", default=False)
+	parser.add_argument("-p", "--pacman", action="store_true", default=True)
+	parser.add_argument("-a", "--aur", action="store_true", default=False)
+
+	args = parser.parse_args()
 
 	pacman_packages = []
 	aur_packages = []
-	snap_classic_packages = []
-	snap_packages = []
 
 	for category in PACKAGES:
 		for package, src in PACKAGES[category].items():
 			if src.startswith("pacman"):
-				if ".laptop" in src and laptop:
+				if ".laptop" in src and args.laptop:
 					pacman_packages.append(package)
 				elif ".laptop" not in src:
 					pacman_packages.append(package)
 
 			elif src.startswith("aur"):
-				if ".laptop" in src and laptop:
+				if ".laptop" in src and args.laptop:
 					aur_packages.append(package)
 				elif ".laptop" not in src:
 					aur_packages.append(package)
 
+	if args.pacman:
+		print("Installing pacman packages")
+		os.system(f"sudo pacman -Sy --noconfirm --needed {' '.join(pacman_packages)}")
 
-	print("Installing pacman packages")
-	os.system(f"sudo pacman -Sy --noconfirm --needed {' '.join(pacman_packages)}")
-
-	print("Installing aur packages")
-	os.system(f"yay -S --needed --noconfirm --batchinstall --noredownload --norebuild {' '.join(aur_packages)}")
+	if args.aur:
+		print("Installing aur packages")
+		os.system(f"yay -S --needed --noconfirm --batchinstall --noredownload --norebuild {' '.join(aur_packages)}")
 
