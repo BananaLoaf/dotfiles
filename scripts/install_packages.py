@@ -81,6 +81,7 @@ PACKAGES = {
         "intel-gpu-tools": "pacman",
         "gotop": "aur",
         "trezor-bridge-bin": "aur",
+        "parsec-bin": "aur"
     },
 }
 
