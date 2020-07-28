@@ -110,7 +110,7 @@ menuFont=Noto Sans,10,-1,5,50,0,0,0,0,0
 shadeSortColumn=true
 smallestReadableFont=Noto Sans,8,-1,5,50,0,0,0,0,0
 toolBarFont=Noto Sans,10,-1,5,50,0,0,0,0,0
-widgetStyle=breeze
+widgetStyle=Breeze
 
 [Icons]
 Theme=PearBlueDark

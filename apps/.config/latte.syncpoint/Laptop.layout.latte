@@ -410,12 +410,16 @@ lengthMarginsLock=false
 maximumLength=300
 style=ApplicationTitle
 
+[Containments][4][Applets][141]
+immutability=1
+plugin=org.kde.plasma.lock_logout
+
 [Containments][4][Applets][25]
 immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][4][Applets][25][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][4][Applets][25][Configuration][Appearance]
 enabledCalendarPlugins=/usr/lib/qt/plugins/plasmacalendarplugins/holidaysevents.so
@@ -462,14 +466,14 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][4][Applets][32][Configuration]
-PreloadWeight=89
+PreloadWeight=70
 
 [Containments][4][Applets][33]
 immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][4][Applets][33][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][4][Applets][33][Configuration][ConfigDialog]
 DialogHeight=540
@@ -491,7 +495,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][4][Applets][48][Configuration]
-PreloadWeight=54
+PreloadWeight=24
 SystrayContainmentId=49
 
 [Containments][4][ConfigDialog]
@@ -506,14 +510,14 @@ advanced=false
 animationLauncherBouncing=false
 animationWindowAddedInGroup=false
 animationWindowInAttention=false
-appletOrder=140;46;25;48;29;32;27;33;28;139
+appletOrder=140;46;25;48;29;32;27;33;28;141;139
 autoDecreaseIconSize=false
 blurEnabled=false
 dragActiveWindowEnabled=true
 durationTime=x1
 iconSize=23
 inConfigureAppletsMode=true
-lockedZoomApplets=140;46;25;48;29;32;27;33;28;139
+lockedZoomApplets=140;46;25;48;29;32;27;33;28;141;139
 mouseWheelActions=false
 panelPosition=10
 panelSize=100
@@ -558,7 +562,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][49][Applets][132][Configuration]
-PreloadWeight=49
+PreloadWeight=1
 
 [Containments][49][Applets][133]
 immutability=1
@@ -580,6 +584,13 @@ plugin=org.kde.plasma.printmanager
 
 [Containments][49][Applets][136][Configuration]
 PreloadWeight=0
+
+[Containments][49][Applets][141]
+immutability=1
+plugin=org.kde.plasma.mediacontroller
+
+[Containments][49][Applets][141][Configuration]
+PreloadWeight=42
 
 [Containments][49][ConfigDialog]
 DialogHeight=899
