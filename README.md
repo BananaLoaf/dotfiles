@@ -21,5 +21,5 @@ bash scripts/fix_lusk_btrfs_swap.sh
 bash scripts/fix_vol_keys.sh
 
 # Other kernels have hardware issues (touchpad, no sound)
-sudo pacman -S linux419
+sudo pacman -S linux54 # or linux419 or linux58
 ```
