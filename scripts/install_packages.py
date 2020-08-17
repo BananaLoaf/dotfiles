@@ -31,7 +31,6 @@ PACKAGES = {
     "social": {
         "telegram-desktop": "pacman",
         "rocketchat-desktop": "aur",
-        "whatsapp-nativefier": "aur",
         "discord": "pacman",
     },
     "development": {
