@@ -30,7 +30,6 @@ PACKAGES = {
     },
     "social": {
         "telegram-desktop": "pacman",
-        "rocketchat-desktop": "aur",
         "discord": "pacman",
     },
     "development": {
@@ -78,6 +77,8 @@ PACKAGES = {
         "qt5-tools": "pacman",
         "appmenu-gtk-module": "pacman",
         "intel-gpu-tools": "pacman",
+        "s-tui": "pacman",
+        "onlyoffice-desktopeditors": "pacman",
         "gotop": "aur",
         "trezor-bridge-bin": "aur",
         "parsec-bin": "aur"

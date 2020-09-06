@@ -1,0 +1,8 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Name=Intel GPU Moninor
+Exec=konsole -e "sudo intel_gpu_top"
+Icon=utilities-terminal
+Type=Application
+Categories=Application;
