@@ -13,7 +13,7 @@ triggerLidActionWhenExternalMonitorPresent=true
 icon=battery-060
 
 [Battery][DPMSControl]
-idleTime=900
+idleTime=600
 
 [Battery][DimDisplay]
 idleTime=300000
@@ -22,6 +22,11 @@ idleTime=300000
 lidAction=4
 powerButtonAction=16
 triggerLidActionWhenExternalMonitorPresent=true
+
+[Battery][SuspendSession]
+idleTime=900000
+suspendThenHibernate=true
+suspendType=1
 
 [LowBattery]
 icon=battery-low
@@ -42,7 +47,7 @@ triggerLidActionWhenExternalMonitorPresent=true
 
 [LowBattery][SuspendSession]
 idleTime=300000
-suspendThenHibernate=false
+suspendThenHibernate=true
 suspendType=4
 
 [migration]
