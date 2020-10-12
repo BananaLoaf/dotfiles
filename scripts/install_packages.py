@@ -4,8 +4,7 @@ import argparse
 
 PACKAGES = {
     "security": {
-        "gnome-keyring": "pacman", 
-        "kgpg": "pacman",
+        "gnome-keyring": "pacman",
         "seahorse": "pacman",
         "tor": "pacman",
         "torsocks": "pacman",
@@ -13,17 +12,15 @@ PACKAGES = {
         "strace": "pacman",
         "gocryptfs": "pacman",
         "tunnelbear": "aur",
-        "networkmanager-l2tp": "aur"
     },
     "media": {
-        "pix": "pacman",
+        "pix": "aur",
         "gimp": "pacman",
         "lollypop": "pacman",
         "flameshot": "pacman",
         "transmission-qt": "pacman",
-        "plasma-browser-integration": "pacman",
         "google-chrome": "aur",
-        "sublime-text-3-imfix": "aur",
+        "sublime-text-3": "aur",
         "tor-browser": "aur",
         "dropbox": "aur",
         "spotify": "aur",
@@ -38,11 +35,11 @@ PACKAGES = {
         "python37": "aur",
         "clion": "aur",
         "pycharm-community-edition": "pacman",
-        "arduino": "pacman"
+        "arduino": "aur",
+        "arduino-pro-ide": "aur"
     },
     "personalization": {
         "latte-dock": "pacman",
-        "neofetch": "pacman",
         "lolcat": "pacman",
         "fish": "pacman",
         "plasma5-applets-window-buttons": "aur",
@@ -51,8 +48,7 @@ PACKAGES = {
         "ulauncher": "aur",
     },
     "backup": {
-        "deja-dup": "pacman",
-        "timeshift": "pacman",
+        "timeshift": "aur",
         "btrbk": "aur",
     },
     "touchpad-gestures": {
@@ -65,20 +61,17 @@ PACKAGES = {
         "ttf-opensans": "pacman",
         "grub-customizer": "pacman",
         "gparted": "pacman",
-        "net-tools": "pacman",
         "zip": "pacman",
         "unzip": "pacman",
-        "yay": "pacman",
-        "etcher": "pacman",
-        "time": "pacman",
+        "etcher-bin": "aur",
         "inotify-tools": "pacman",
         "graphviz": "pacman",
         "wine": "pacman",
-        "qt5-tools": "pacman",
         "appmenu-gtk-module": "pacman",
         "intel-gpu-tools": "pacman",
-        "s-tui": "pacman",
-        "onlyoffice-desktopeditors": "pacman",
+        "imagemagick": "pacman",
+        "kdialog": "pacman",
+        "onlyoffice-bin": "aur",
         "gotop": "aur",
         "trezor-bridge-bin": "aur",
         "parsec-bin": "aur"
@@ -88,9 +81,9 @@ PACKAGES = {
 
 if __name__ == "__main__":
 	parser = argparse.ArgumentParser(description="Package installer")
-	parser.add_argument("-l", "--laptop", action="store_true", default=False)
-	parser.add_argument("-p", "--pacman", action="store_true", default=True)
-	parser.add_argument("-a", "--aur", action="store_true", default=False)
+	parser.add_argument("-l", "--laptop", action="store_true")
+	parser.add_argument("-p", "--pacman", action="store_true")
+	parser.add_argument("-a", "--aur", action="store_true")
 
 	args = parser.parse_args()
 

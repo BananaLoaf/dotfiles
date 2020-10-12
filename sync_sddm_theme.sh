@@ -16,12 +16,12 @@ sudo python -c "\
 import configparser;\
 config = configparser.ConfigParser();\
 config.optionxform=str;\
-config.read('/etc/sddm.conf');\
+config.read('/etc/sddm.conf.d/kde_settings.conf');\
 \
 config['General']['Numlock'] = 'on';\
 config['Theme']['Current'] = 'sugar-candy';\
 config['Theme']['Theme'] = 'sugar-candy';\
 config['Theme']['CursorTheme'] = 'PearDarkCursors';\
 \
-file = open('/etc/sddm.conf', 'w');\
+file = open('/etc/sddm.conf.d/kde_settings.conf', 'w');\
 config.write(file)"

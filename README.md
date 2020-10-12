@@ -1,4 +1,4 @@
-# dotfiles for Manjaro KDE 20 on Lenovo S940
+# dotfiles for EndeavourOS on Lenovo S940
 
 ```bash
 # Prepare the repo

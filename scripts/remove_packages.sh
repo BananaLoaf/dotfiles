@@ -4,10 +4,10 @@
 ################################################################
 echo_green "Removing packages"
 
-PACKAGES="firefox imagewriter gwenview kate konversation spectacle thunderbird yakuake kget zsh"
+PACKAGES="firefox gwenview kate spectacle yakuake"
 for pkg in $PACKAGES
 do
-	sudo pacman -R --noconfirm $pkg
+	sudo pacman -Rdds --noconfirm $pkg
 done
 
 ################################################################
@@ -35,18 +35,8 @@ rm -r $HOME/.config/katesyntaxhighlightingrc
 rm -r $HOME/.config/katevirc
 rm -r $HOME/.local/share/kate
 
-# konversation
-rm -r $HOME/.config/konversationrc
-rm -r $HOME/.kde/share/config/konversationrc
-rm -r $HOME/.kde4/share/config/konversationrc
-
 # spectacle
 rm -r $HOME/.config/spectaclerc
-
-# thunderbird
-rm -r $HOME/.cache/thunderbird
-rm -r $HOME/.thunderbird
-rm -r $HOME/.icedove
 
 # kget
 rm -r $HOME/.config/kgetrc

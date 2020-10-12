@@ -5,7 +5,7 @@ DefaultProfile=Shell.profile
 PreviewSize=16
 
 [Favorite Profiles]
-Favorites=
+Favorites=Shell.profile
 
 [General]
 ConfirmClosingMultipleTabs=false
@@ -14,17 +14,6 @@ ViewPropsTimestamp=2020,6,18,20,19,38
 
 [IconsMode]
 PreviewSize=16
-
-[MainWindow]
-Height 1080=1030
-MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAwAAAAAAAAC4AAAB7fwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAAAoBAAAD+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAmAAAB7QAAAF0BAAADAAAAAQAAAAAAAAAA/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAAD/////AAAACgEAAAMAAAADAAADuAAAAfL8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawEAAAAAAAADuAAAAJEBAAADAAAC/wAAAe0AAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
-ToolBarsMovable=Disabled
-Width 1920=952
-
-[Open-with settings]
-CompletionMode=1
-History=sub
 
 [PlacesPanel]
 IconSize=16
