@@ -1,0 +1,17 @@
+[qt]
+GUIEffects=none
+KDE\contrast=4
+KWinPalette\activeBackground=#31363b
+KWinPalette\activeBlend=#ffffff
+KWinPalette\activeForeground=#eff0f1
+KWinPalette\activeTitleBtnBg=#222226
+KWinPalette\frame=#222226
+KWinPalette\inactiveBackground=#31363b
+KWinPalette\inactiveBlend=#4b4743
+KWinPalette\inactiveForeground=#7f8c8d
+KWinPalette\inactiveFrame=#222226
+KWinPalette\inactiveTitleBtnBg=#222226
+Palette\active=#ddddee, #222226, #3d3d44, #313137, #141416, #1e1e21, #ddddee, #ffffff, #ddddee, #222226, #222226, #0f0f10, #2a71eb, #000000, #2980b9, #7f8c8d, #31363b, #000000, #31363b, #eff0f1, #ddddee
+Palette\disabled=#5f5f68, #202024, #3c3c43, #303036, #131315, #1d1d20, #5f5f68, #ffffff, #5f5f68, #202024, #202024, #0e0e0f, #202024, #5f5f68, #234055, #3f4447, #2f3338, #000000, #31363b, #eff0f1, #ddddee
+Palette\inactive=#ddddee, #222226, #3d3d44, #313137, #141416, #1e1e21, #ddddee, #ffffff, #ddddee, #222226, #222226, #0f0f10, #183363, #ddddee, #2980b9, #7f8c8d, #31363b, #000000, #31363b, #eff0f1, #ddddee
+font="Noto Sans,10,-1,0,50,0,0,0,0,0"
