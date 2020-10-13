@@ -76,6 +76,13 @@ location=3
 plugin=org.kde.plasma.private.systemtray
 wallpaperplugin=org.kde.image
 
+[Containments][15][Applets][16]
+immutability=1
+plugin=org.kde.plasma.vault
+
+[Containments][15][Applets][16][Configuration]
+PreloadWeight=26
+
 [Containments][15][ConfigDialog]
 DialogHeight=895
 DialogWidth=866
@@ -85,10 +92,10 @@ PreloadWeight=0
 
 [Containments][15][General]
 communicationsShown=false
-extraItems=org.kde.ktp-contactlist,org.kde.plasma.pkupdates,org.kde.discovernotifier,org.kde.plasma.mediacontroller_plus,KDE Daemon,whatsdesk1,ulauncher,TelegramDesktop,flameshot
+extraItems=org.kde.ktp-contactlist,org.kde.plasma.pkupdates,org.kde.discovernotifier,org.kde.plasma.mediacontroller_plus,KDE Daemon,whatsdesk1,ulauncher,TelegramDesktop,flameshot,org.kde.plasma.vault
 hardwareControlShown=false
 hiddenItems=MSM Notifier for Plasma5,Google Play Music Desktop Player1,flameshot,KDE Daemon,ulauncher
-knownItems=org.kde.plasma.networkmanagement,org.kde.ktp-contactlist,org.kde.plasma.clipboard,org.kde.plasma.printmanager,org.kde.kdeconnect,org.kde.plasma.pkupdates,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.notifications,org.kde.plasma.devicenotifier,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.discovernotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.mediacontroller_plus,org.kde.plasma.nightcolorcontrol
+knownItems=org.kde.plasma.networkmanagement,org.kde.ktp-contactlist,org.kde.plasma.clipboard,org.kde.plasma.printmanager,org.kde.kdeconnect,org.kde.plasma.pkupdates,org.kde.plasma.battery,org.kde.plasma.bluetooth,org.kde.plasma.notifications,org.kde.plasma.devicenotifier,org.kde.plasma.volume,org.kde.plasma.mediacontroller,org.kde.discovernotifier,org.kde.plasma.keyboardindicator,org.kde.plasma.mediacontroller_plus,org.kde.plasma.nightcolorcontrol,org.kde.plasma.vault
 miscellaneousShown=false
 shownItems=Protonmail Desktop (unofficial)1,Mailspring1,discord1,whatsdesk1,org.kde.plasma.mediacontroller
 systemServicesShown=false
@@ -334,6 +341,13 @@ location=3
 plugin=org.kde.plasma.private.systemtray
 wallpaperplugin=org.kde.image
 
+[Containments][17][Applets][61]
+immutability=1
+plugin=org.kde.plasma.vault
+
+[Containments][17][Applets][61][Configuration]
+PreloadWeight=26
+
 [Containments][17][ConfigDialog]
 DialogHeight=899
 DialogWidth=1224
@@ -344,9 +358,9 @@ PreloadWeight=0
 [Containments][17][General]
 applicationStatusShown=false
 communicationsShown=false
-extraItems=KDE Daemon,TelegramDesktop,discord1,flameshot,MSM Notifier for Plasma5,Protonmail Desktop (unofficial)1,ulauncher,whatsdesk1,Update Manager,Slack1,Mailspring1,remmina-icon,steam,Skype1
+extraItems=KDE Daemon,TelegramDesktop,discord1,flameshot,MSM Notifier for Plasma5,Protonmail Desktop (unofficial)1,ulauncher,whatsdesk1,Update Manager,Slack1,Mailspring1,remmina-icon,steam,Skype1,org.kde.plasma.vault
 hiddenItems=discord1,flameshot,MSM Notifier for Plasma5,Protonmail Desktop (unofficial)1,ulauncher,whatsdesk1,Update Manager,TelegramDesktop,Slack1,Mailspring1,remmina-icon,steam,Skype1
-knownItems=org.kde.plasma.printmanager,org.kde.plasma.keyboardindicator,org.kde.kdeconnect,org.kde.plasma.volume,org.kde.plasma.clipboard,org.kde.plasma.notifications,org.kde.plasma.networkmanagement,org.kde.plasma.devicenotifier,org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.mediacontroller,org.kde.plasma.nightcolorcontrol
+knownItems=org.kde.plasma.printmanager,org.kde.plasma.keyboardindicator,org.kde.kdeconnect,org.kde.plasma.volume,org.kde.plasma.clipboard,org.kde.plasma.notifications,org.kde.plasma.networkmanagement,org.kde.plasma.devicenotifier,org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.mediacontroller,org.kde.plasma.nightcolorcontrol,org.kde.plasma.vault
 miscellaneousShown=false
 shownItems=KDE Daemon
 systemServicesShown=false
@@ -413,12 +427,15 @@ maximumLength=300
 immutability=1
 plugin=org.kde.plasma.lock_logout
 
+[Containments][4][Applets][141][Configuration]
+PreloadWeight=26
+
 [Containments][4][Applets][25]
 immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][4][Applets][25][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][4][Applets][25][Configuration][Appearance]
 enabledCalendarPlugins=/usr/lib/qt/plugins/plasmacalendarplugins/holidaysevents.so
@@ -465,14 +482,14 @@ immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][4][Applets][32][Configuration]
-PreloadWeight=70
+PreloadWeight=46
 
 [Containments][4][Applets][33]
 immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][4][Applets][33][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][4][Applets][33][Configuration][ConfigDialog]
 DialogHeight=540
@@ -494,7 +511,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][4][Applets][48][Configuration]
-PreloadWeight=24
+PreloadWeight=0
 SystrayContainmentId=49
 
 [Containments][4][ConfigDialog]
@@ -561,7 +578,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][49][Applets][132][Configuration]
-PreloadWeight=1
+PreloadWeight=0
 
 [Containments][49][Applets][133]
 immutability=1
@@ -584,12 +601,12 @@ plugin=org.kde.plasma.printmanager
 [Containments][49][Applets][136][Configuration]
 PreloadWeight=0
 
-[Containments][49][Applets][141]
+[Containments][49][Applets][142]
 immutability=1
-plugin=org.kde.plasma.mediacontroller
+plugin=org.kde.plasma.vault
 
-[Containments][49][Applets][141][Configuration]
-PreloadWeight=42
+[Containments][49][Applets][142][Configuration]
+PreloadWeight=26
 
 [Containments][49][ConfigDialog]
 DialogHeight=899
@@ -598,9 +615,9 @@ DialogWidth=1224
 [Containments][49][General]
 applicationStatusShown=false
 communicationsShown=false
-extraItems=KDE Daemon,TelegramDesktop,discord1,flameshot,MSM Notifier for Plasma5,Protonmail Desktop (unofficial)1,ulauncher,whatsdesk1,Update Manager,Slack1,Mailspring1,remmina-icon,steam,Skype1,org.kde.plasma.mediacontroller,org.kde.plasma.devicenotifier,org.kde.kscreen,org.kde.kdeconnect,org.kde.plasma.printmanager,org.kde.plasma.clipboard
+extraItems=KDE Daemon,TelegramDesktop,discord1,flameshot,MSM Notifier for Plasma5,Protonmail Desktop (unofficial)1,ulauncher,whatsdesk1,Update Manager,Slack1,Mailspring1,remmina-icon,steam,Skype1,org.kde.plasma.mediacontroller,org.kde.plasma.devicenotifier,org.kde.kscreen,org.kde.kdeconnect,org.kde.plasma.printmanager,org.kde.plasma.clipboard,org.kde.plasma.vault
 hiddenItems=flameshot,MSM Notifier for Plasma5,Protonmail Desktop (unofficial)1,ulauncher,Slack1,Mailspring1,remmina-icon
-knownItems=org.kde.plasma.printmanager,org.kde.plasma.keyboardindicator,org.kde.kdeconnect,org.kde.plasma.volume,org.kde.plasma.clipboard,org.kde.plasma.notifications,org.kde.plasma.networkmanagement,org.kde.plasma.devicenotifier,org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.mediacontroller,org.kde.plasma.nightcolorcontrol
+knownItems=org.kde.plasma.printmanager,org.kde.plasma.keyboardindicator,org.kde.kdeconnect,org.kde.plasma.volume,org.kde.plasma.clipboard,org.kde.plasma.notifications,org.kde.plasma.networkmanagement,org.kde.plasma.devicenotifier,org.kde.plasma.bluetooth,org.kde.plasma.battery,org.kde.plasma.mediacontroller,org.kde.plasma.nightcolorcontrol,org.kde.plasma.vault
 miscellaneousShown=false
 shownItems=KDE Daemon,Skype1,discord1,TelegramDesktop,whatsdesk1,Update Manager,steam
 systemServicesShown=false
@@ -610,7 +627,7 @@ activities=
 background=
 color=red
 disableBordersForMaximizedWindows=false
-lastUsedActivity=677dd158-06eb-415f-93ec-a5caa3095919
+lastUsedActivity=2f36be69-9d00-49e8-9792-2040dbce96a4
 launchers=
 preferredForShortcutsTouched=true
 sharedLayout=
