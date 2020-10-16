@@ -1,4 +1,18 @@
 [MSFT0001:00 06CB:CDB0 Touchpad]
+clickMethodAreas=false
+clickMethodClickfinger=true
+disableWhileTyping=true
+enabled=false
+horizontalScrolling=true
+leftHanded=false
+lmrTapButtonMap=false
+lrmTapButtonMap=true
 naturalScroll=true
 pointerAcceleration=0.2
+pointerAccelerationProfileAdaptive=true
+pointerAccelerationProfileFlat=false
+scrollEdge=false
+scrollTwoFinger=true
+tapAndDrag=true
+tapDragLock=false
 tapToClick=true

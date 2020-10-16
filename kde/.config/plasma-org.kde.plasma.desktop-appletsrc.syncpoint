@@ -14,17 +14,17 @@ _wallpaper=true
 add widgets=true
 configure=true
 configure shortcuts=false
-lock widgets=true
+edit mode=true
 manage activities=true
 remove=true
 run associated application=true
 
 [ActionPlugins][1]
-MidButton;NoModifier=org.kde.paste
 RightButton;NoModifier=org.kde.contextmenu
 
-[Containments][39]
-activityId=677dd158-06eb-415f-93ec-a5caa3095919
+[Containments][1]
+ItemGeometriesHorizontal=
+activityId=2f36be69-9d00-49e8-9792-2040dbce96a4
 formfactor=0
 immutability=1
 lastScreen=0
@@ -32,20 +32,16 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][39][ConfigDialog]
+[Containments][1][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
-[Containments][39][Configuration]
-PreloadWeight=26
-
-[Containments][39][General]
+[Containments][1][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=739
+ToolBoxButtonX=741
 
-[Containments][39][Wallpaper][org.kde.image][General]
-Image=file:///home/bark/.local/share/wallpapers/user-wallpapers/@marko_oblak_art-Lone_Peak.png
+[Containments][1][Wallpaper][org.kde.image][General]
+Image=file:///home/leaf/.local/share/wallpapers/user-wallpapers/@marko_oblak_art-Lone_Peak.png
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=

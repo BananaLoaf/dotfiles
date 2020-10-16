@@ -1,14 +1,9 @@
-[$Version]
-update_info=filepicker.upd:filepicker-remove-old-previews-entry,fonts_global.upd:Fonts_Global,fonts_global_toolbar.upd:Fonts_Global_Toolbar,kwin.upd:animation-speed,icons_remove_effects.upd:IconsRemoveEffects,style_widgetstyle_default_breeze.upd:StyleWidgetStyleDefaultBreeze
-
 [ColorEffects:Disabled]
-ChangeSelectionColor=
 Color=56,56,56
 ColorAmount=0
 ColorEffect=0
 ContrastAmount=0.65
 ContrastEffect=1
-Enable=
 IntensityAmount=0.1
 IntensityEffect=2
 
@@ -116,7 +111,6 @@ BrowserApplication=google-chrome.desktop
 ColorScheme=PearDarkBlue
 Name=PearDarkBlue
 shadeSortColumn=true
-toolBarFont=Noto Sans,10,-1,5,50,0,0,0,0,0
 
 [Icons]
 Theme=PearBlueDark
@@ -130,8 +124,8 @@ widgetStyle=Breeze
 [KFileDialog Settings]
 Allow Expansion=false
 Automatically select filename extension=true
-Breadcrumb Navigation=false
-Decoration position=0
+Breadcrumb Navigation=true
+Decoration position=2
 LocationCombo Completionmode=5
 PathCombo Completionmode=5
 Show Bookmarks=false
@@ -144,9 +138,10 @@ Sort by=Name
 Sort directories first=true
 Sort reversed=false
 Speedbar Width=111
-View Style=Detail
+View Style=DetailTree
 
 [WM]
+FakeEntryToKeepThisGroup=true
 activeBackground=49,54,59
 activeBlend=255,255,255
 activeForeground=239,240,241

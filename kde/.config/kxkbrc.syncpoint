@@ -2,8 +2,8 @@
 DisplayNames=,
 LayoutList=us,ru
 LayoutLoopCount=-1
-Model=pc101
-Options=
+Model=pc86
+Options=grp:win_space_toggle
 ResetOldOptions=true
 ShowFlag=false
 ShowLabel=true

@@ -1,15 +1,17 @@
 [Added Associations]
 application/x-shellscript=sublime-text_subl.desktop;
+application/x-zerosize=sublime_text.desktop;
 application/xml=sublime-text_subl.desktop;
 image/jpeg=pix.desktop;
 image/png=pix.desktop;
 image/svg+xml=pix.desktop;
 inode/directory=org.kde.dolphin.desktop;org.kde.filelight.desktop;pycharm-community_pycharm-community.desktop;GitKraken.desktop;
 text/markdown=sublime-text_subl.desktop;
-text/plain=sublime-text_subl.desktop;
+text/plain=sublime_text.desktop;sublime-text_subl.desktop;
 
 [Default Applications]
 application/x-shellscript=sublime-text_subl.desktop;
+application/x-zerosize=sublime_text.desktop;
 application/xml=sublime-text_subl.desktop;
 image/jpeg=pix.desktop;
 image/png=pix.desktop;
@@ -17,4 +19,4 @@ image/svg+xml=pix.desktop;
 inode/directory=org.kde.dolphin.desktop;
 text/html=google-chrome.desktop
 text/markdown=sublime-text_subl.desktop;
-text/plain=sublime-text_subl.desktop;
+text/plain=sublime_text.desktop;

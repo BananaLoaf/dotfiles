@@ -1,156 +1,42 @@
-[$Version]
-update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-effect-to-js,kwin.upd:port-scale-effect-to-js,kwin.upd:port-dimscreen-effect-to-js,kwin.upd:auto-bordersize
-
 [Compositing]
-Backend=OpenGL
-Enabled=true
-GLCore=true
-GLPreferBufferSwap=a
-GLTextureFilter=2
-HiddenPreviews=5
 OpenGLIsUnsafe=false
-WindowsBlockCompositing=true
-XRenderSmoothScale=false
 
 [Desktops]
-Id_1=556ce263-fc01-40f9-be4a-368a7d5ac44f
-Id_2=435f5d1e-56e6-411a-a4f1-4aba790029f7
-Id_3=9ca77f6f-07a6-41e6-b99c-cbe54b79d84a
-Id_4=13880110-3029-48dd-aafa-3023baaa327e
+Id_1=57836557-10be-4dd0-a43a-a69e585f700f
+Id_2=e3bb0631-c3f5-4804-8718-e158cbb52eb1
+Id_3=0cc14909-79ed-458e-aca6-4054519f5135
+Id_4=69876d94-e4c7-47b7-87a5-ac7f8a654e0f
 Number=4
 Rows=1
 
-[Effect-CoverSwitch]
-TabBox=false
-TabBoxAlternative=false
-
-[Effect-Cube]
-BorderActivate=9
-BorderActivateCylinder=9
-BorderActivateSphere=9
-
-[Effect-DesktopGrid]
-BorderActivate=9
-
-[Effect-FlipSwitch]
-TabBox=false
-TabBoxAlternative=false
-
 [Effect-PresentWindows]
-BorderActivate=9
-BorderActivateAll=7
-BorderActivateClass=9
+BorderActivateAll=9
 
 [ElectricBorders]
-Bottom=None
-BottomLeft=None
-BottomRight=None
-Left=None
-Right=None
-Top=None
 TopLeft=None
-TopRight=None
-
-[ModifierOnlyShortcuts]
-Meta=org.kde.plasmashell,/PlasmaShell,org.kde.PlasmaShell,activateLauncherMenu
-
-[MouseBindings]
-CommandActiveTitlebar1=Raise
-CommandActiveTitlebar2=Nothing
-CommandActiveTitlebar3=Operations menu
-CommandAll1=Move
-CommandAll2=Toggle raise and lower
-CommandAll3=Resize
-CommandAllKey=Meta
-CommandAllWheel=Nothing
-CommandInactiveTitlebar1=Activate and raise
-CommandInactiveTitlebar2=Nothing
-CommandInactiveTitlebar3=Operations menu
-CommandTitlebarWheel=Nothing
-CommandWindow1=Activate, raise and pass click
-CommandWindow2=Activate and pass click
-CommandWindow3=Activate and pass click
-CommandWindowWheel=Scroll
 
 [Plugins]
-dynamicVirtualDesktopsEnabled=false
-dynamic_workspacesEnabled=false
-highlightwindowEnabled=true
+blurEnabled=false
 kwin4_effect_dimscreenEnabled=true
-minimizeallEnabled=true
+minimizeallEnabled=false
 screenedgeEnabled=false
 sticky-window-snappingEnabled=true
 synchronizeskipswitcherEnabled=false
 videowallEnabled=false
-windowgeometryEnabled=false
-
-[Script-desktopchangeosd]
-PopupHideDelay=500
 
 [TabBox]
-ActivitiesMode=0
-ApplicationsMode=0
 BorderActivate=9
-BorderAlternativeActivate=9
-DesktopMode=1
-HighlightWindows=true
 LayoutName=MediumRoundedDark
-MinimizedMode=0
-MultiScreenMode=0
-ShowDesktopMode=0
-ShowTabBox=true
-SwitchingMode=0
-
-[TabBoxAlternative]
-ActivitiesMode=0
-ApplicationsMode=0
-DesktopMode=1
-HighlightWindows=true
-LayoutName=org.kde.breeze.desktop
-MinimizedMode=0
-MultiScreenMode=0
-ShowDesktopMode=0
-ShowTabBox=true
-SwitchingMode=0
+TouchBorderActivate=9
 
 [Windows]
-ActiveMouseScreen=false
-AutoRaise=false
-AutoRaiseInterval=750
-BorderSnapZone=10
 BorderlessMaximizedWindows=true
-CenterSnapZone=0
-ClickRaise=true
-DelayFocusInterval=300
 ElectricBorderCooldown=1050
-ElectricBorderCornerRatio=0.25
 ElectricBorderDelay=1000
-ElectricBorderMaximize=true
-ElectricBorderTiling=true
 ElectricBorders=2
-FocusPolicy=ClickToFocus
 FocusStealingPreventionLevel=0
-GeometryTip=false
-HideUtilityWindowsForInactive=true
-MaximizeButtonLeftClickCommand=Maximize
-MaximizeButtonMiddleClickCommand=Maximize (vertical only)
-MaximizeButtonRightClickCommand=Maximize (horizontal only)
-NextFocusPrefersMouse=false
-Placement=Smart
 RollOverDesktops=false
-SeparateScreenFocus=false
-ShadeHover=false
-ShadeHoverInterval=250
-SnapOnlyWhenOverlapping=false
-TitlebarDoubleClickCommand=Maximize
-WindowSnapZone=10
 
 [org.kde.kdecoration2]
-BorderSize=Normal
-BorderSizeAuto=true
-ButtonsOnLeft=MS
-ButtonsOnRight=HIAX
-CloseOnDoubleClickOnMenu=false
-ShowToolTips=true
 library=org.kde.kwin.aurorae
 theme=__aurorae__svg__PearDarkOpaque

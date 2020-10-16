@@ -4,7 +4,7 @@
 ################################################################
 echo_green "Removing packages"
 
-PACKAGES="firefox gwenview kate spectacle yakuake"
+PACKAGES="firefox gwenview kate spectacle yakuake kwrite"
 for pkg in $PACKAGES
 do
 	sudo pacman -Rdds --noconfirm $pkg

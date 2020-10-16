@@ -1,9 +1,2 @@
-[Applications][google-chrome]
-Seen=true
-
-[Applications][telegramdesktop]
-Seen=true
-
 [Notifications]
-PopupPosition=TopRight
 PopupTimeout=3000
