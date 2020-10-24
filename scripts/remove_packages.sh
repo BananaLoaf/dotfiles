@@ -41,3 +41,6 @@ rm -r $HOME/.config/spectaclerc
 # kget
 rm -r $HOME/.config/kgetrc
 rm -r $HOME/.config/kioslaverc
+
+# kwrite
+rm -r $HOME/.config/kwriterc

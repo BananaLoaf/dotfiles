@@ -31,8 +31,8 @@ TouchBorderActivate=9
 
 [Windows]
 BorderlessMaximizedWindows=true
-ElectricBorderCooldown=1050
-ElectricBorderDelay=1000
+ElectricBorderCooldown=550
+ElectricBorderDelay=500
 ElectricBorders=2
 FocusStealingPreventionLevel=0
 RollOverDesktops=false

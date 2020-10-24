@@ -1,0 +1,7 @@
+[Defaults]
+Profile=Default
+
+[PROFILE_Default]
+EmailClient[$e]=google-chrome.desktop
+ServerType=
+TerminalClient=false
