@@ -74,7 +74,8 @@ PACKAGES = {
         "onlyoffice-bin": "aur",
         "gotop": "aur",
         "trezor-bridge-bin": "aur",
-        "parsec-bin": "aur"
+        "parsec-bin": "aur",
+        "anydesk-bin": "aur"
     },
 }
 
