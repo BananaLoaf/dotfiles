@@ -75,7 +75,9 @@ PACKAGES = {
         "gotop": "aur",
         "trezor-bridge-bin": "aur",
         "parsec-bin": "aur",
-        "anydesk-bin": "aur"
+        "anydesk-bin": "aur",
+        "ksysguard-gpu": "aur",
+        "plasma-systemmonitor": "pacman"
     },
 }
 
