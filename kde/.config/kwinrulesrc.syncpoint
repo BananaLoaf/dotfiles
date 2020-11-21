@@ -9,7 +9,7 @@ wmclassmatch=1
 [2]
 Description=Google Chrome
 desktop=2
-desktoprule=1
+desktoprule=3
 wmclass=google-chrome
 wmclassmatch=1
 

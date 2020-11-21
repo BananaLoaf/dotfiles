@@ -9,10 +9,11 @@ Favorites=Shell.profile
 
 [General]
 ConfirmClosingMultipleTabs=false
+ConfirmClosingTerminalRunningProgram=false
 Version=200
 
 [IconsMode]
 PreviewSize=16
 
 [PlacesPanel]
-IconSize=16
+IconSize=32

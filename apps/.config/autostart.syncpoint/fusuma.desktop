@@ -2,7 +2,7 @@
 [Desktop Entry]
 Comment[en_US]=
 Comment=
-Exec=/usr/bin/fusuma -d -c ~/.config/fusuma/config.yml
+Exec=if ! pgrep -x "fusuma" > /dev/null; then /usr/bin/fusuma -d -c ~/.config/fusuma/config.yml; fi
 GenericName[en_US]=
 GenericName=
 Icon=system-run

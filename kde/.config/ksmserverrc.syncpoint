@@ -1,6 +1,2 @@
 [General]
-confirmLogout=true
-excludeApps=
-loginMode=default
-offerShutdown=true
-shutdownType=0
+loginMode=emptySession
