@@ -44,6 +44,7 @@ PACKAGES = {
         "fish": "pacman",
         "plasma5-applets-window-buttons": "aur",
         "plasma5-applets-window-title": "aur",
+        "plasma5-applets-eventcalendar": "aur",
         "buddhasay": "aur",
         "ulauncher": "aur",
     },

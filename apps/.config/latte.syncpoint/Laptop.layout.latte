@@ -46,6 +46,7 @@ appletOrder=2
 blurEnabled=false
 leftClickAction=PreviewWindows
 mouseWheelActions=false
+panelShadows=false
 panelSize=100
 panelTransparency=50
 shadowOpacity=50
@@ -448,27 +449,45 @@ favoritesPortedToKAstats=true
 [Containments][4][Applets][143][Shortcuts]
 global=Ctrl+Alt+Space
 
-[Containments][4][Applets][25]
+[Containments][4][Applets][145]
 immutability=1
-plugin=org.kde.plasma.digitalclock
+plugin=org.kde.plasma.eventcalendar
 
-[Containments][4][Applets][25][Configuration]
-PreloadWeight=5
+[Containments][4][Applets][145][Configuration]
+PreloadWeight=100
 
-[Containments][4][Applets][25][Configuration][Appearance]
-enabledCalendarPlugins=/usr/lib/qt/plugins/plasmacalendarplugins/holidaysevents.so
-showSeconds=true
+[Containments][4][Applets][145][Configuration][Agenda]
+agendaBreakupMultiDayEvents=true
 
-[Containments][4][Applets][25][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
+[Containments][4][Applets][145][Configuration][Calendar]
+monthCellRadius=0.053153153153153235
+monthCurrentCustomTitleFormat=d MMMM, yyyy
+monthEventBadgeType=bottomBar
+
+[Containments][4][Applets][145][Configuration][ConfigDialog]
+DialogHeight=1030
+DialogWidth=952
+
+[Containments][4][Applets][145][Configuration][Events]
+enabledCalendarPlugins=/usr/lib/x86_64-linux-gnu/qt5/plugins/plasmacalendarplugins/holidaysevents.so
+
+[Containments][4][Applets][145][Configuration][General]
+clockLine2HeightRatio=0.42
+clockMouseWheelDown=
+clockMouseWheelUp=
+clockTimeFormat1=HH:mm:ss   dd.MM.yyyy
+clockTimeFormat2=dd.MM.yyyy
+showBackground=false
+v71Migration=true
+
+[Containments][4][Applets][145][Configuration][Google Calendar]
 
 [Containments][4][Applets][27]
 immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][4][Applets][27][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][4][Applets][27][Configuration][ConfigDialog]
 DialogHeight=620
@@ -493,7 +512,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][4][Applets][29][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][4][Applets][32]
 immutability=1
@@ -507,7 +526,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][4][Applets][33][Configuration]
-PreloadWeight=0
+PreloadWeight=10
 
 [Containments][4][Applets][33][Configuration][ConfigDialog]
 DialogHeight=540
@@ -529,7 +548,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][4][Applets][48][Configuration]
-PreloadWeight=52
+PreloadWeight=57
 SystrayContainmentId=49
 
 [Containments][4][ConfigDialog]
@@ -544,16 +563,16 @@ advanced=false
 animationLauncherBouncing=false
 animationWindowAddedInGroup=false
 animationWindowInAttention=false
-appletOrder=143;140;46;25;48;29;32;27;33;28;141;139
+appletOrder=143;140;46;145;48;29;32;27;33;28;141;139
 autoDecreaseIconSize=false
 blurEnabled=false
 dragActiveWindowEnabled=true
 durationTime=x1
 iconSize=23
-inConfigureAppletsMode=true
-lockedZoomApplets=143;140;46;25;48;29;32;27;33;28;141;139
+lockedZoomApplets=143;140;46;25;145;48;29;32;27;33;28;141;139
 mouseWheelActions=false
 panelPosition=10
+panelShadows=false
 panelSize=100
 panelTransparency=0
 plasmaBackgroundForPopups=true
@@ -629,6 +648,9 @@ PreloadWeight=18
 [Containments][49][Applets][144]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
+
+[Containments][49][Applets][144][Configuration]
+PreloadWeight=42
 
 [Containments][49][ConfigDialog]
 DialogHeight=899
