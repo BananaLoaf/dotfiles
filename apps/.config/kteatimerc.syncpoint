@@ -1,0 +1,22 @@
+[General]
+Geometry=\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01,\x00\x00\x01,\x00\x00\x01,\x00\x00\x01,\x00\x00\x01,\x00\x00\x01,\x00\x00\x03Q\x00\x00\x03'\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x01,\x00\x00\x01,\x00\x00\x03Q\x00\x00\x03'
+PopupAutoHide=false
+PopupAutoHideTime=30
+ReminderTime=60
+SettingsDialogXPos=300
+SettingsDialogYPos=300
+UsePopup=true
+UseReminder=false
+UseVisualize=true
+
+[Tealist]
+Tea0 Name=Green Tea
+Tea0 Time=120
+Tea1 Name=Black Tea
+Tea1 Time=180
+Tea2 Name=Earl Grey
+Tea2 Time=300
+Tea3 Name=Fruit Tea
+Tea3 Time=480
+Tea4 Name=Entropy Tea
+Tea4 Time=59941

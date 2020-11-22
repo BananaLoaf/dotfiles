@@ -57,6 +57,8 @@ PACKAGES = {
         "ruby-fusuma-plugin-keypress": "aur.laptop"
     },
     "utilities": {
+        "pulseaudio": "pacman",
+        "pulseaudio-bluetooth": "pacman",
         "xdotool": "pacman",
         "gutenprint": "pacman",
         "ttf-opensans": "pacman",
