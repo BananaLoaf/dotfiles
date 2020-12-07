@@ -80,8 +80,20 @@ PACKAGES = {
         "parsec-bin": "aur",
         "anydesk-bin": "aur",
         "ksysguard-gpu": "aur",
-        "plasma-systemmonitor": "pacman"
+        "plasma-systemmonitor": "pacman",
+        "vulkan-intel": "pacman"
     },
+    "zluda": {  # https://github.com/vosen/ZLUDA
+        "rust": "pacman",
+        "intel-compute-runtime": "pacman",
+        "intel-opencl": "aur",
+        "level-zero-loader": "pacman",
+        "cmake": "pacman",
+        "cuda-10.1": "aur",
+        "cudnn7-cuda10.1": "aur"
+        # "spirv-tools": "pacman",
+        # "spirv-headers": "pacman",
+    }
 }
 
 
