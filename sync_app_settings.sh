@@ -26,7 +26,7 @@ fi
 
 
 # fusuma
-if groups $USER | grep -q -v input
-then
-    sudo gpasswd -a $USER input        
-fi
+# if groups $USER | grep -q -v input
+# then
+#     sudo gpasswd -a $USER input        
+# fi

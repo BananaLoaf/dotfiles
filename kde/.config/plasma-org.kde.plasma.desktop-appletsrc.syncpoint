@@ -36,6 +36,9 @@ wallpaperplugin=org.kde.image
 DialogHeight=540
 DialogWidth=720
 
+[Containments][1][Configuration]
+PreloadWeight=18
+
 [Containments][1][General]
 ToolBoxButtonState=topcenter
 ToolBoxButtonX=741
@@ -43,5 +46,19 @@ ToolBoxButtonX=741
 [Containments][1][Wallpaper][org.kde.image][General]
 Image=file:///home/leaf/.local/share/wallpapers/user-wallpapers/@marko_oblak_art-Lone_Peak.png
 
+[Containments][2]
+activityId=2f36be69-9d00-49e8-9792-2040dbce96a4
+formfactor=0
+immutability=1
+lastScreen=1
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][2][Wallpaper][org.kde.image][General]
+Image=file:///home/leaf/.local/share/wallpapers/user-wallpapers/@marko_oblak_art-Lone_Peak.png
+SlidePaths=/home/leaf/.local/share/wallpapers,/usr/share/wallpapers
+
 [ScreenMapping]
 itemsOnDisabledScreens=
+screenMapping=

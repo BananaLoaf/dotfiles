@@ -8,6 +8,14 @@ pluginWhiteList=services,desktopsessions,PowerDevil,calculator,unitconverter,she
 [PlasmaThemeExtended]
 outlineWidth=1
 
+[PlasmaTransientsConfig]
+PreloadWeight=0
+enableKWinEdges=false
+raiseOnActivityChange=false
+raiseOnDesktopChange=false
+timerHide=700
+timerShow=200
+
 [ScreenConnectors]
 10=eDP1
 11=DP1

@@ -52,13 +52,28 @@ PACKAGES = {
         "timeshift": "aur",
         "btrbk": "aur",
     },
+    "remote": {
+        "parsec-bin": "aur",
+        "anydesk-bin": "aur",
+    },
     "touchpad-gestures": {
+        "touchegg": "aur.laptop"
         "ruby-fusuma": "aur.laptop",
         "ruby-fusuma-plugin-keypress": "aur.laptop"
     },
-    "utilities": {
+    "core-utils": {
+        "linux-lts419": "aur",
+        "vulkan-intel": "pacman",
         "pulseaudio": "pacman",
         "pulseaudio-bluetooth": "pacman",
+        "intel-gpu-tools": "pacman",
+        "intel-compute-runtime": "pacman",
+        "intel-opencl": "aur",
+        "level-zero-loader": "pacman",
+        "cuda-10.1": "aur",
+        "cudnn7-cuda10.1": "aur"
+    },
+    "utils": {
         "xdotool": "pacman",
         "gutenprint": "pacman",
         "ttf-opensans": "pacman",
@@ -71,28 +86,16 @@ PACKAGES = {
         "graphviz": "pacman",
         "wine": "pacman",
         "appmenu-gtk-module": "pacman",
-        "intel-gpu-tools": "pacman",
         "imagemagick": "pacman",
         "kdialog": "pacman",
         "onlyoffice-bin": "aur",
         "gotop": "aur",
         "trezor-bridge-bin": "aur",
-        "parsec-bin": "aur",
-        "anydesk-bin": "aur",
         "ksysguard-gpu": "aur",
         "plasma-systemmonitor": "pacman",
-        "vulkan-intel": "pacman"
-    },
-    "zluda": {  # https://github.com/vosen/ZLUDA
         "rust": "pacman",
-        "intel-compute-runtime": "pacman",
-        "intel-opencl": "aur",
-        "level-zero-loader": "pacman",
+        "go": "pacman",
         "cmake": "pacman",
-        "cuda-10.1": "aur",
-        "cudnn7-cuda10.1": "aur"
-        # "spirv-tools": "pacman",
-        # "spirv-headers": "pacman",
     }
 }
 
