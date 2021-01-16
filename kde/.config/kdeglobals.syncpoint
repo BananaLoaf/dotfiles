@@ -1,9 +1,11 @@
 [ColorEffects:Disabled]
+ChangeSelectionColor=
 Color=56,56,56
 ColorAmount=0
 ColorEffect=0
 ContrastAmount=0.65
 ContrastEffect=1
+Enable=
 IntensityAmount=0.1
 IntensityEffect=2
 
@@ -45,6 +47,20 @@ ForegroundNeutral=201,206,59
 ForegroundNormal=239,240,241
 ForegroundPositive=17,209,22
 ForegroundVisited=61,174,230
+
+[Colors:Header]
+BackgroundAlternate=77,77,77
+BackgroundNormal=34,34,38
+DecorationFocus=26,74,150
+DecorationHover=42,113,235
+ForegroundActive=61,174,233
+ForegroundInactive=204,204,221
+ForegroundLink=41,128,185
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=221,221,238
+ForegroundPositive=39,174,96
+ForegroundVisited=127,140,141
 
 [Colors:Selection]
 BackgroundAlternate=29,153,243
