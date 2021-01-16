@@ -71,7 +71,11 @@ PACKAGES = {
         "intel-opencl": "aur",
         "level-zero-loader": "pacman",
         "cuda-10.1": "aur",
-        "cudnn7-cuda10.1": "aur"
+        "cudnn7-cuda10.1": "aur",
+        "pipewire": "pacman",
+        "pipewire-alsa": "pacman",
+        "pipewire-pulse": "pacman",
+        "pipewire-jack": "pacman",
     },
     "utils": {
         "xdotool": "pacman",
