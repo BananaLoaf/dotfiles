@@ -1,5 +1,6 @@
 set EDITOR /bin/nano
 set VK_ICD_FILENAMES /usr/share/vulkan/icd.d/intel_icd.x86_64.json
+set GTK_USE_PORTAL 1
 
 
 function confirm

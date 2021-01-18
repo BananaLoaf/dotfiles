@@ -28,6 +28,7 @@ PACKAGES = {
     "social": {
         "telegram-desktop": "pacman",
         "discord": "pacman",
+        "steam": "pacman"
     },
     "development": {
         "dbeaver": "pacman",
@@ -100,6 +101,8 @@ PACKAGES = {
         "rust": "pacman",
         "go": "pacman",
         "cmake": "pacman",
+        "sshfs": "pacman",
+        "kio-fuse": "pacman"
     }
 }
 

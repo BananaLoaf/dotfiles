@@ -2,6 +2,6 @@
 Profile=Default
 
 [PROFILE_Default]
-EmailClient[$e]=google-chrome.desktop
+EmailClient=/usr/bin/google-chrome-stable
 ServerType=
 TerminalClient=false

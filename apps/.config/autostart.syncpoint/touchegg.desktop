@@ -2,7 +2,7 @@
 [Desktop Entry]
 Comment[en_US]=
 Comment=
-Exec=/usr/bin/touchegg
+Exec=/usr/bin/sleep 5; /usr/bin/touchegg
 GenericName[en_US]=
 GenericName=
 Icon=system-run
