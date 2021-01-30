@@ -35,9 +35,17 @@ PACKAGES = {
         "gitkraken": "aur",
         "python37": "aur",
         "clion": "aur",
+        "clion-jre": "aur",
+        "clion-gdb": "aur",
         "pycharm-community-edition": "pacman",
+        "arduino-avr-core": "pacman",
         "arduino": "aur",
-        "arduino-pro-ide": "aur"
+        "arduino-pro-ide": "aur",
+        "platformio"
+    },
+    "development-esp": {
+        "esp-idf": "aur",
+        "xtensa-esp32-elf-gcc-bin": "aur"
     },
     "personalization": {
         "latte-dock": "pacman",

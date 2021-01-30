@@ -37,9 +37,8 @@ DelayFocusInterval=0
 ElectricBorderCooldown=550
 ElectricBorderDelay=500
 ElectricBorders=2
-FocusPolicy=FocusFollowsMouse
-FocusStealingPreventionLevel=0
 RollOverDesktops=false
+SeparateScreenFocus=true
 
 [org.kde.kdecoration2]
 library=org.kde.kwin.aurorae
