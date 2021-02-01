@@ -154,7 +154,7 @@ Sort by=Name
 Sort directories first=true
 Sort reversed=true
 Speedbar Width=111
-View Style=DetailTree
+View Style=Simple
 
 [WM]
 FakeEntryToKeepThisGroup=true

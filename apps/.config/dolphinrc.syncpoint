@@ -13,6 +13,7 @@ ConfirmClosingTerminalRunningProgram=false
 Version=200
 
 [IconsMode]
+IconSize=112
 PreviewSize=16
 
 [PlacesPanel]
