@@ -41,7 +41,8 @@ PACKAGES = {
         "arduino-avr-core": "pacman",
         "arduino": "aur",
         "arduino-pro-ide": "aur",
-        "platformio"
+        "platformio": "aur",
+        "docker": "pacman"
     },
     "development-esp": {
         "esp-idf": "aur",
@@ -103,7 +104,7 @@ PACKAGES = {
         "kdialog": "pacman",
         "onlyoffice-bin": "aur",
         "gotop": "aur",
-        "trezor-bridge-bin": "aur",
+        "trezor-suite-appimage": "aur"
         "ksysguard-gpu": "aur",
         "plasma-systemmonitor": "pacman",
         "rust": "pacman",

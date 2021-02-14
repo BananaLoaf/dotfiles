@@ -1,4 +1,5 @@
 [Compositing]
+GLCore=true
 OpenGLIsUnsafe=false
 
 [Desktops]
