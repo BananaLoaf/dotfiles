@@ -3,15 +3,34 @@ import argparse
 
 
 PACKAGES = {
+    "core-utils": {
+        "linux-lts419": "aur",
+        "vulkan-intel": "pacman",
+        "lib32-vulkan-intel": "pacman",
+        # "pulseaudio": "pacman",
+        "pulseaudio-bluetooth": "pacman",
+        "intel-gpu-tools": "pacman",
+        # "intel-compute-runtime": "pacman",
+        # "intel-opencl": "aur",
+        # "level-zero-loader": "pacman",
+        "gcc8": "aur",  # for cuda
+        "cuda-10.1": "aur",
+        "cudnn7-cuda10.1": "aur",
+        "pipewire": "pacman",
+        "qt5-tools": "pacman"
+        # "pipewire-alsa": "pacman",
+        # "pipewire-pulse": "pacman",
+        # "pipewire-jack": "pacman",
+    },
     "security": {
         "gnome-keyring": "pacman",
         "seahorse": "pacman",
         "tor": "pacman",
         "torsocks": "pacman",
         "firejail": "pacman",
-        "strace": "pacman",
+        # "strace": "pacman",
         "gocryptfs": "pacman",
-        "tunnelbear": "aur",
+        # "tunnelbear": "aur",
     },
     "media": {
         "pix": "aur",
@@ -31,20 +50,26 @@ PACKAGES = {
         "steam": "pacman"
     },
     "development": {
+    	"jre11-openjdk": "pacman",
         "dbeaver": "pacman",
         "gitkraken": "aur",
-        "python37": "aur",
-        "clion": "aur",
         "clion-jre": "aur",
         "clion-gdb": "aur",
+        "clion": "aur",
+        "docker": "pacman",
+        "rust": "pacman",
+        "go": "pacman",
+        "cmake": "pacman",
+    },
+    "development-python": {
+        "python37": "aur",
         "pycharm-community-edition": "pacman",
-        "arduino-avr-core": "pacman",
+    },
+    "development-micro": {
+    	"arduino-avr-core": "pacman",
         "arduino": "aur",
         "arduino-pro-ide": "aur",
         "platformio": "aur",
-        "docker": "pacman"
-    },
-    "development-esp": {
         "esp-idf": "aur",
         "xtensa-esp32-elf-gcc-bin": "aur"
     },
@@ -60,7 +85,7 @@ PACKAGES = {
     },
     "backup": {
         "timeshift": "aur",
-        "btrbk": "aur",
+        # "btrbk": "aur",
     },
     "remote": {
         "parsec-bin": "aur",
@@ -68,24 +93,8 @@ PACKAGES = {
     },
     "touchpad-gestures": {
         "touchegg": "aur.laptop"
-        "ruby-fusuma": "aur.laptop",
-        "ruby-fusuma-plugin-keypress": "aur.laptop"
-    },
-    "core-utils": {
-        "linux-lts419": "aur",
-        "vulkan-intel": "pacman",
-        "pulseaudio": "pacman",
-        "pulseaudio-bluetooth": "pacman",
-        "intel-gpu-tools": "pacman",
-        "intel-compute-runtime": "pacman",
-        "intel-opencl": "aur",
-        "level-zero-loader": "pacman",
-        "cuda-10.1": "aur",
-        "cudnn7-cuda10.1": "aur",
-        "pipewire": "pacman",
-        "pipewire-alsa": "pacman",
-        "pipewire-pulse": "pacman",
-        "pipewire-jack": "pacman",
+        # "ruby-fusuma": "aur.laptop",
+        # "ruby-fusuma-plugin-keypress": "aur.laptop"
     },
     "utils": {
         "xdotool": "pacman",
@@ -99,19 +108,16 @@ PACKAGES = {
         "inotify-tools": "pacman",
         "graphviz": "pacman",
         "wine": "pacman",
-        "appmenu-gtk-module": "pacman",
-        "imagemagick": "pacman",
-        "kdialog": "pacman",
+        # "appmenu-gtk-module": "pacman",
+        # "imagemagick": "pacman",
+        # "kdialog": "pacman",
         "onlyoffice-bin": "aur",
         "gotop": "aur",
         "trezor-suite-appimage": "aur"
         "ksysguard-gpu": "aur",
-        "plasma-systemmonitor": "pacman",
-        "rust": "pacman",
-        "go": "pacman",
-        "cmake": "pacman",
+        # "plasma-systemmonitor": "pacman",
         "sshfs": "pacman",
-        "kio-fuse": "pacman"
+        # "kio-fuse": "pacman"
     }
 }
 
