@@ -15,3 +15,6 @@ do
 
     link $PWD/$sync_point $HOME/${sync_point%$SUFFIX}
 done
+
+# Make bluetooth work
+sudo systemctl enable bluetooth.service

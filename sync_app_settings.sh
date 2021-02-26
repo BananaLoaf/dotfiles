@@ -25,8 +25,6 @@ then
 fi
 
 
-# fusuma
-# if groups $USER | grep -q -v input
-# then
-#     sudo gpasswd -a $USER input        
-# fi
+# Touchpad gestures
+sudo systemctl enable touchegg.service
+sudo systemctl start touchegg.service 

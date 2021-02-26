@@ -338,7 +338,7 @@
     <ID>1602541394/5</ID>
     <isSystemItem>false</isSystemItem>
     <IsHidden>false</IsHidden>
-    <OnlyInApp></OnlyInApp>
+    <OnlyInApp/>
    </metadata>
   </info>
  </bookmark>
@@ -387,17 +387,13 @@
    </metadata>
   </info>
  </separator>
- <bookmark href="kdeconnect://193af87b26efa5e0/">
-  <title>Pixel 4</title>
+ <separator>
   <info>
-   <metadata owner="http://freedesktop.org">
-    <bookmark:icon name="kdeconnect"/>
-   </metadata>
    <metadata owner="http://www.kde.org">
-    <ID>1612191112/2</ID>
-    <isSystemItem>false</isSystemItem>
-    <IsHidden>false</IsHidden>
+    <UDI>/org/kde/fstab/fuse.sshfs/run/user/1000/193af87b26efa5e0</UDI>
+    <isSystemItem>true</isSystemItem>
+    <IsHidden>true</IsHidden>
    </metadata>
   </info>
- </bookmark>
+ </separator>
 </xbel>
