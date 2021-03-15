@@ -5,6 +5,7 @@ import argparse
 PACKAGES = {
     "core-utils": {
         "linux-lts419": "aur",
+        "linux-zen": "aur",
         "vulkan-intel": "pacman",
         "lib32-vulkan-intel": "pacman",
         # "pulseaudio": "pacman",
