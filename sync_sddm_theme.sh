@@ -24,4 +24,5 @@ config['Theme']['Theme'] = 'sugar-candy';\
 config['Theme']['CursorTheme'] = 'PearDarkCursors';\
 \
 file = open('/etc/sddm.conf.d/kde_settings.conf', 'w');\
-config.write(file)"
+config.write(file);\
+file.close()"

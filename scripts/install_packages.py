@@ -31,6 +31,7 @@ PACKAGES = {
         # "strace": "pacman",
         "gocryptfs": "pacman",
         # "tunnelbear": "aur",
+        "bitwarden-bin": "aur"
     },
     "media": {
         "pix": "aur",
@@ -63,6 +64,7 @@ PACKAGES = {
     },
     "development-python": {
         "python37": "aur",
+        "python38": "aur"
         "pycharm-community-edition": "pacman",
     },
     "development-micro": {
