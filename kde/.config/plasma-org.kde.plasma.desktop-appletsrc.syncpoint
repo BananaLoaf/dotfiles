@@ -44,7 +44,8 @@ ToolBoxButtonState=topcenter
 ToolBoxButtonX=741
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=file:///home/leaf/.dotfiles/kde_theme/.local/share/user-wallpapers.syncpoint/@marko_oblak_art-Lone_Peak.png
+Image=file:///home/leaf/.dotfiles/kde_theme/.local/share/wallpapers/user-wallpapers.syncpoint/@marko_oblak_art-Lone_Peak.png
+SlidePaths=/home/leaf/.local/share/wallpapers,/usr/share/wallpapers
 
 [Containments][2]
 activityId=2f36be69-9d00-49e8-9792-2040dbce96a4
