@@ -28,7 +28,23 @@ link ()
     else
     	echo_red "$SOURCE does not exist"
 	fi
-} 
+}
+
+sudo_link ()
+{
+    local SOURCE=$1
+    local DEST=$2
+
+    if [ -f "$SOURCE" ] || [ -d "$SOURCE" ]
+    then
+        echo_green "Linking $SOURCE -> $DEST"
+        sudo mkdir -p $(dirname $DEST) # Make parent dir for destination
+        sudo rm -f -r $DEST            # Remove existing destination
+        sudo ln -s -f $SOURCE $DEST    # Link
+    else
+        echo_red "$SOURCE does not exist"
+    fi
+}
 
 confirm_path ()
 {
