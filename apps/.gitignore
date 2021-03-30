@@ -11,3 +11,7 @@
 .config/latte.syncpoint/.multiple-layouts_hidden.layout.latte
 
 .config/touchegg.syncpoint/.touchegg.lock
+
+.local/share/konsole.syncpoint/bookmarks.xml
+
+.local/share/konsole.syncpoint/bookmarks.xml.tbcache
