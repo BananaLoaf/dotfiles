@@ -93,6 +93,8 @@ PACKAGES = {
     "remote": {
         "parsec-bin": "aur",
         "anydesk-bin": "aur",
+        "krdc": "pacman",
+        "krfb": "pacman"
     },
     "touchpad-gestures": {
         "touchegg": "aur.laptop"

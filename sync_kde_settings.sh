@@ -17,7 +17,7 @@ do
 done
 
 echo_red "Linking user picture to root space"
-sudo_link $PWD/.face.syncpoint /var/lib/AccountsService/icons/$USER
+sudo cp $PWD/.face.syncpoint /var/lib/AccountsService/icons/$USER
 
 echo_red "Making Bluetooth work"
 sudo systemctl enable bluetooth.service
