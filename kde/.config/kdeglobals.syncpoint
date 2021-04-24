@@ -156,6 +156,9 @@ Sort reversed=true
 Speedbar Width=111
 View Style=Simple
 
+[Shortcuts]
+Back=Ctrl+Alt+Shift+J; Back; Alt+Left
+
 [WM]
 FakeEntryToKeepThisGroup=true
 activeBackground=49,54,59

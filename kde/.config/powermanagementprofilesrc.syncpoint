@@ -5,7 +5,7 @@ icon=battery-charging
 idleTime=900
 
 [AC][HandleButtonEvents]
-lidAction=4
+lidAction=64
 powerButtonAction=16
 triggerLidActionWhenExternalMonitorPresent=true
 

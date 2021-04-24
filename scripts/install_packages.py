@@ -101,6 +101,14 @@ PACKAGES = {
         # "ruby-fusuma": "aur.laptop",
         # "ruby-fusuma-plugin-keypress": "aur.laptop"
     },
+    "office": {
+        "onlyoffice-bin": "aur",
+        "ttf-times-new-roman": "aur",
+        "otf-xits": "aur",
+        "kile": "pacman",
+        "texlive-most": "pacman",
+        "texlive-langcyrillic": "pacman",
+    }
     "utils": {
         "xdotool": "pacman",
         "gutenprint": "pacman",
@@ -116,7 +124,6 @@ PACKAGES = {
         # "appmenu-gtk-module": "pacman",
         # "imagemagick": "pacman",
         # "kdialog": "pacman",
-        "onlyoffice-bin": "aur",
         "gotop": "aur",
         "trezor-suite-appimage": "aur"
         "ksysguard-gpu": "aur",

@@ -1,5 +1,5 @@
 [Compositing]
-GLCore=true
+GLTextureFilter=1
 OpenGLIsUnsafe=false
 
 [Desktops]
@@ -14,6 +14,9 @@ Rows=1
 [Effect-PresentWindows]
 BorderActivateAll=9
 
+[Effect-Slide]
+SlideDocks=true
+
 [ElectricBorders]
 TopLeft=None
 
@@ -25,6 +28,10 @@ screenedgeEnabled=false
 sticky-window-snappingEnabled=true
 synchronizeskipswitcherEnabled=false
 videowallEnabled=false
+
+[Script-Parachute]
+desktopsBarPlacement=0
+showDesktopShadows=true
 
 [TabBox]
 BorderActivate=9
