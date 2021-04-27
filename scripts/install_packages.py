@@ -85,6 +85,7 @@ PACKAGES = {
         "plasma5-applets-eventcalendar": "aur",
         "buddhasay": "aur",
         "ulauncher": "aur",
+        "kwin-scripts-parachute": "aur",
     },
     "backup": {
         "timeshift": "aur",
@@ -108,6 +109,8 @@ PACKAGES = {
         "kile": "pacman",
         "texlive-most": "pacman",
         "texlive-langcyrillic": "pacman",
+        "aspell-en": "pacman",
+        "aspell-ru": "pacman",
     }
     "utils": {
         "xdotool": "pacman",
