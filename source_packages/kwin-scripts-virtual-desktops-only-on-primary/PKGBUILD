@@ -1,0 +1,17 @@
+_pkgname=virtual-desktops-only-on-primary
+pkgname=kwin-scripts-virtual-desktops-only-on-primary
+pkgver=0.1
+pkgrel=1
+pkgdesc="Virual desktops only on primary monitor"
+arch=(any)
+license=(GPLv3)
+depends=(kwin)
+makedepends=(kpackage)
+source=("https://github.com/wsdfhjxc/kwin-scripts/archive/refs/tags/${_pkgname}-${pkgver}.zip")
+sha256sums=('aedb0c4614b302f0337b784fd5fbf939dedbc2770254a145ccd1fbbda178b29c')
+
+package() {
+  cd $srcdir/${pkgname}-${pkgver}/${_pkgname}
+  kpackagetool5 --type Kwin/Script --install . -p "${pkgdir}/usr/share/kwin/scripts/"
+  install -Dm644 metadata.desktop "${pkgdir}/usr/share/kservices5/${_pkgname}.desktop"
+}

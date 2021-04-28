@@ -38,6 +38,7 @@ bash sync_sddm_theme.sh
 bash scripts/remove_packages.sh
 sudo pacman -Syu
 python scripts/install_packages.py
+bash scripts/install_local.sh
 
 # Sync settings
 chmod +x apps/.config/autostart-scripts.syncpoint/*
