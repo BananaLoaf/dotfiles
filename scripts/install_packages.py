@@ -86,6 +86,8 @@ PACKAGES = {
         "buddhasay": "aur",
         "ulauncher": "aur",
         "kwin-scripts-parachute": "aur",
+        "materia-kde": "pacman",
+        "kvantum-theme-materia": "pacman",
         "sddm-sugar-light": "aur",
         "sddm-sugar-dark": "aur",
         "sddm-sugar-candy-git": "aur",
