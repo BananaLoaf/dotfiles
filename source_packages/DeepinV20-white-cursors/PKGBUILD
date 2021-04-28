@@ -1,0 +1,15 @@
+pkgname=DeepinV20-white-cursors
+pkgver=5a5f0fad392c31b40db44db6f1a77d3e3194e53e
+pkgrel=1
+pkgdesc="DeepinV20 white cursors"
+arch=(any)
+license=(GPLv3)
+# depends=("libxcursor")  # just copying files
+url="https://github.com/yeyushengfan258/${pkgname}"
+source=("${url}/archive/${pkgver}.zip")
+sha256sums=('8317af8eebc1e455aae1e355a590591a6510a6978d5cf54db6c3824ef7b5fbc0')
+
+package() {
+  mkdir -p ${pkgdir}/usr/share/icons
+  cp -pr $srcdir/${pkgname}-${pkgver}/dist ${pkgdir}/usr/share/icons/DeppinWhite-cursors
+}

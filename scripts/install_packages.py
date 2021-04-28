@@ -86,6 +86,9 @@ PACKAGES = {
         "buddhasay": "aur",
         "ulauncher": "aur",
         "kwin-scripts-parachute": "aur",
+        "sddm-sugar-light": "aur",
+        "sddm-sugar-dark": "aur",
+        "sddm-sugar-candy-git": "aur",
     },
     "backup": {
         "timeshift": "aur",
@@ -124,7 +127,7 @@ PACKAGES = {
         "inotify-tools": "pacman",
         "graphviz": "pacman",
         "wine": "pacman",
-        # "appmenu-gtk-module": "pacman",
+        "appmenu-gtk-module": "pacman",
         # "imagemagick": "pacman",
         # "kdialog": "pacman",
         "gotop": "aur",

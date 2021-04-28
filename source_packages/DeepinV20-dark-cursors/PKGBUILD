@@ -1,0 +1,15 @@
+pkgname=DeepinV20-dark-cursors
+pkgver=b8a6de9a566b667b86329b0bd500e77fadbaaf5e
+pkgrel=1
+pkgdesc="DeepinV20 dark cursors"
+arch=(any)
+license=(GPLv3)
+# depends=("libxcursor")  # just copying files
+url="https://github.com/yeyushengfan258/${pkgname}"
+source=("${url}/archive/${pkgver}.zip")
+sha256sums=('2cafce0dfd6d690dd0d9a24286c8954f0c735598ba44bcc8e7f5a95c3124e394')
+
+package() {
+  mkdir -p ${pkgdir}/usr/share/icons
+  cp -pr $srcdir/${pkgname}-${pkgver}/dist ${pkgdir}/usr/share/icons/DeppinDark-cursors
+}
