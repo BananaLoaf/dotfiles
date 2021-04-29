@@ -35,6 +35,8 @@ showDesktopShadows=true
 
 [TabBox]
 BorderActivate=9
+DesktopLayout=org.kde.breeze.desktop
+DesktopListLayout=org.kde.breeze.desktop
 LayoutName=MediumRoundedDark
 TouchBorderActivate=9
 
