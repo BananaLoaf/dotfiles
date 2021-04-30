@@ -21,6 +21,7 @@ SlideDocks=true
 TopLeft=None
 
 [Plugins]
+ParachuteEnabled=true
 blurEnabled=true
 kwin4_effect_dimscreenEnabled=true
 minimizeallEnabled=true
@@ -28,10 +29,12 @@ screenedgeEnabled=false
 sticky-window-snappingEnabled=true
 synchronizeskipswitcherEnabled=false
 videowallEnabled=false
+virtual-desktops-only-on-primaryEnabled=false
 
 [Script-Parachute]
 desktopsBarPlacement=0
 showDesktopShadows=true
+showNotificationWindows=false
 
 [TabBox]
 BorderActivate=9
