@@ -77,7 +77,7 @@ PACKAGES = {
         "xtensa-esp32-elf-gcc-bin": "aur"
     },
     "personalization": {
-        "latte-dock": "pacman",
+        "latte-dock-git": "aur",
         "lolcat": "pacman",
         "fish": "pacman",
         "plasma5-applets-window-buttons": "aur",

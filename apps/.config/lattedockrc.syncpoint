@@ -1,3 +1,6 @@
+[General]
+Number of Actions=0
+
 [Notification Messages]
 really_clear_history=true
 
@@ -8,14 +11,6 @@ pluginWhiteList=services,desktopsessions,PowerDevil,calculator,unitconverter,she
 [PlasmaThemeExtended]
 outlineWidth=1
 
-[PlasmaTransientsConfig]
-PreloadWeight=0
-enableKWinEdges=false
-raiseOnActivityChange=false
-raiseOnDesktopChange=false
-timerHide=700
-timerShow=200
-
 [ScreenConnectors]
 10=eDP1
 11=DP1
@@ -25,6 +20,7 @@ badges3DStyle=false
 canDisableBorders=false
 currentLayout=Laptop
 downloadWindowSize=800,550
+inAdvancedModeForEditSettings=true
 lastNonAssignedLayout=Laptop
 launchers=
 layoutsColumnWidths=
@@ -34,4 +30,5 @@ metaPressAndHoldEnabled=true
 mouseSensitivity=2
 screenTrackerInterval=2500
 showInfoWindow=true
+singleModeLayoutName=Laptop
 version=2

@@ -14,9 +14,6 @@ Rows=1
 [Effect-PresentWindows]
 BorderActivateAll=9
 
-[Effect-Slide]
-SlideDocks=true
-
 [ElectricBorders]
 TopLeft=None
 
