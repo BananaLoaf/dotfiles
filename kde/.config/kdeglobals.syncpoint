@@ -137,6 +137,7 @@ emoticonsTheme=GoogleEmojiComplete
 parseMode=2
 
 [General]
+AllowKDEAppsToRememberWindowPositions=false
 BrowserApplication=google-chrome.desktop
 ColorScheme=PearDarkBlue
 Name=PearDarkBlue
@@ -163,12 +164,12 @@ Show Full Path=false
 Show Inline Previews=true
 Show Preview=false
 Show Speedbar=true
-Show hidden files=false
+Show hidden files=true
 Sort by=Name
 Sort directories first=true
 Sort reversed=true
 Speedbar Width=111
-View Style=Simple
+View Style=Detail
 
 [Shortcuts]
 Back=Ctrl+Alt+Shift+J; Back; Alt+Left

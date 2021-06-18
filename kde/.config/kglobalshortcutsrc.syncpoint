@@ -34,20 +34,15 @@ decrease_microphone_volume=Microphone Volume Down,Microphone Volume Down,Decreas
 decrease_volume=Volume Down,Volume Down,Decrease Volume
 increase_microphone_volume=Microphone Volume Up,Microphone Volume Up,Increase Microphone Volume
 increase_volume=Volume Up,Volume Up,Increase Volume
-mic_mute=Microphone Mute,Microphone Mute,Mute Microphone
+mic_mute=Microphone Mute,Microphone Mute\tMeta+Volume Mute,Mute Microphone
 mute=Volume Mute,Volume Mute,Mute
 
-[krunner.desktop]
-RunClipboard=none,Alt+Shift+F2,Run command on clipboard contents
-_k_friendly_name=KRunner
-_launch=none,Alt+Space\tAlt+F2\tSearch,KRunner
-
 [ksmserver]
-Halt Without Confirmation=none,Ctrl+Alt+Shift+PgDown,Halt Without Confirmation
+Halt Without Confirmation=none,none,Halt Without Confirmation
 Lock Session=Screensaver\tMeta+L,Meta+L\tCtrl+Alt+L\tScreensaver,Lock Session
 Log Out=none,Ctrl+Alt+Del,Log Out
-Log Out Without Confirmation=none,Ctrl+Alt+Shift+Del,Log Out Without Confirmation
-Reboot Without Confirmation=none,Ctrl+Alt+Shift+PgUp,Reboot Without Confirmation
+Log Out Without Confirmation=none,none,Log Out Without Confirmation
+Reboot Without Confirmation=none,none,Reboot Without Confirmation
 _k_friendly_name=Session Management
 
 [kwin]
@@ -221,8 +216,8 @@ activate entry 6=none,Meta+6,Activate Entry 6
 activate entry 7=none,Meta+7,Activate Entry 7
 activate entry 8=none,Meta+8,Activate Entry 8
 activate entry 9=none,Meta+9,Activate Entry 9
-activate widget 143=,none,Activate Launchpad Plasma Widget
-activate widget 53=Ctrl+Alt+Space,none,Activate Launchpad Plasma Widget
+activate widget 143=none,none,Activate Launchpad Plasma Widget
+activate widget 53=none,none,Activate Launchpad Plasma Widget
 clear-history=none,none,Clear Clipboard History
 clipboard_action=,Ctrl+Alt+X,Enable Clipboard Actions
 cycleNextAction=none,none,Next History Item
@@ -252,7 +247,7 @@ show latte global settings=none,Meta+W,Show Latte Global Settings
 show latte view=none,Meta+`,Show Latte Dock/Panel
 show view settings=none,Meta+A,Cycle Through Dock/Panel Settings Windows
 show-barcode=none,none,Show Barcode...
-show-on-mouse-pos=none,none,Open Klipper at Mouse Position
+show-on-mouse-pos=none,Meta+V,Open Klipper at Mouse Position
 
 [mediacontrol]
 _k_friendly_name=Media Controller
@@ -287,7 +282,7 @@ Turn Off Screen=none,none,Turn Off Screen
 _k_friendly_name=Power Management
 
 [plasmashell]
-_k_friendly_name=Latte Dock
+_k_friendly_name=Plasma
 activate task manager entry 1=,Meta+1,Activate Task Manager Entry 1
 activate task manager entry 10=,Meta+0,Activate Task Manager Entry 10
 activate task manager entry 2=,Meta+2,Activate Task Manager Entry 2

@@ -30,6 +30,7 @@ virtual-desktops-only-on-primaryEnabled=false
 
 [Script-Parachute]
 desktopsBarPlacement=0
+searchMethod=1
 showDesktopShadows=true
 showNotificationWindows=false
 
@@ -42,11 +43,12 @@ TouchBorderActivate=9
 
 [Windows]
 ActiveMouseScreen=true
-BorderlessMaximizedWindows=true
+BorderlessMaximizedWindows=false
 DelayFocusInterval=0
 ElectricBorderCooldown=550
 ElectricBorderDelay=500
 ElectricBorders=2
+FocusStealingPreventionLevel=0
 RollOverDesktops=false
 SeparateScreenFocus=true
 

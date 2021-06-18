@@ -9,6 +9,9 @@ lidAction=64
 powerButtonAction=16
 triggerLidActionWhenExternalMonitorPresent=true
 
+[Activities][2f36be69-9d00-49e8-9792-2040dbce96a4]
+mode=None
+
 [Battery]
 icon=battery-060
 
@@ -27,6 +30,11 @@ triggerLidActionWhenExternalMonitorPresent=true
 idleTime=900000
 suspendThenHibernate=true
 suspendType=1
+
+[Battery][WirelessPowerSaving]
+btOption=0
+wifiOption=0
+wwanOption=0
 
 [LowBattery]
 icon=battery-low

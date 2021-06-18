@@ -69,6 +69,8 @@ PACKAGES = {
         "pycharm-community-edition": "pacman",
     },
     "development-micro": {
+        "kicad": "pacman",
+        "kicad-library": "pacman",
     	"arduino-avr-core": "pacman",
         "arduino": "aur",
         "arduino-pro-ide": "aur",
