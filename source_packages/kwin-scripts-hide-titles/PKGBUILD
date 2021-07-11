@@ -1,0 +1,18 @@
+_pkgname=hide-titles
+pkgname=kwin-scripts-hide-titles
+pkgver=1.0.5
+pkgrel=1
+pkgdesc="A KWin script which hides the window titles when they are maximized."
+arch=(any)
+url="https://github.com/bahamondev/${_pkgname}"
+license=(GPLv2)
+depends=(kwin)
+makedepends=(kpackage)
+source=("$url/archive/refs/tags/${pkgver}.zip")
+sha256sums=('9b9e88b610e9bcffc4f66f6f5dc41f68b786775eabb82ea39e0c13ebf2696f4e')
+
+package() {
+  cd $srcdir/${_pkgname}-${pkgver}
+  kpackagetool5 --type Kwin/Script --install . -p "${pkgdir}/usr/share/kwin/scripts/"
+  install -Dm644 metadata.desktop "${pkgdir}/usr/share/kservices5/${_pkgname}.desktop"
+}
