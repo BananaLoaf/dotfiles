@@ -882,6 +882,9 @@ Key=Print
 Type=SHORTCUT
 Uuid={b81e0bd5-095c-4264-ac5f-55f8a30bff4b}
 
+[General]
+ColorScheme[$d]
+
 [Gestures]
 Disabled=true
 MouseButton=2
@@ -890,6 +893,12 @@ Timeout=300
 [GesturesExclude]
 Comment=
 WindowsCount=0
+
+[Icons]
+Theme[$d]
+
+[KDE]
+widgetStyle[$d]
 
 [Main]
 AlreadyImported=defaults,kde32b1,konqueror_gestures_kde321,konsole

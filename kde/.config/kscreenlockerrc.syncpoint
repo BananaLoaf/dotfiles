@@ -1,9 +1,6 @@
 [Daemon]
 Timeout=15
 
-[Greeter]
-Theme=PearDark
-
 [Greeter][Wallpaper][org.kde.image][General]
 Image=/home/leaf/.dotfiles/kde_theme/.local/share/wallpapers/user-wallpapers.syncpoint/coloros-7-3840x2160-22391.jpg
 SlidePaths=/home/leaf/.local/share/wallpapers,/usr/share/wallpapers

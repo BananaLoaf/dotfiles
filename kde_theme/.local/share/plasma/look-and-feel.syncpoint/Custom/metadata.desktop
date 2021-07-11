@@ -2,17 +2,17 @@
 Comment= Desktop for Plasma KDE
 Encoding=UTF-8
 Keywords=Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;Hibernate;
-Name=PearDark
+Name=Custom
 Type=Service
 
 X-KDE-ServiceTypes=Plasma/LookAndFeel
 X-KDE-ParentApp=
 X-KDE-PluginInfo-Author=adhe
 X-KDE-PluginInfo-Category=
-X-KDE-PluginInfo-Email=adhemarks@gmail.com
+X-KDE-PluginInfo-Email=
 X-KDE-PluginInfo-License=GPLv2+
-X-KDE-PluginInfo-Name=PearDark
-X-KDE-PluginInfo-Version=2.0
+X-KDE-PluginInfo-Name=Custom
+X-KDE-PluginInfo-Version=1.0
 X-KDE-PluginInfo-Website=
 X-KDE-fallbackPackage=org.kde.breeze.desktop
 X-Plasma-MainScript=defaults

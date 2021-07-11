@@ -8,10 +8,10 @@ ColorScheme=PearDarkBlue
 Theme=PearBlueDark
 
 [plasmarc][Theme]
-name=PearDark
+name=Materia-Color
 
 [kcminputrc][Mouse]
-cursorTheme=PearDark
+cursorTheme=DeppinDark-cursors
 
 [kwinrc][WindowSwitcher]
 LayoutName=MediumRoundedDark

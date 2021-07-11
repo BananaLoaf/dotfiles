@@ -63,7 +63,7 @@ Item {
 
             AnimatedImage {
                 id: face
-                source: wrapper.avatarPath
+                source: "artwork/gifs/"+wrapper.name+".gif"
                 paused: isCurrent ? false : true;
                 anchors.horizontalCenter: parent.horizontalCenter
                 anchors.verticalCenter: parent.verticalCenter
@@ -75,7 +75,7 @@ Item {
 
             AnimatedImage {
                 id: faceIcon
-                source: wrapper.avatarPath
+                source: "artwork/gifs/default.gif"
                 smooth: true
                 visible: false
                 anchors.horizontalCenter: parent.horizontalCenter

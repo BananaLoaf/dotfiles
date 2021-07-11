@@ -216,8 +216,8 @@ activate entry 6=none,Meta+6,Activate Entry 6
 activate entry 7=none,Meta+7,Activate Entry 7
 activate entry 8=none,Meta+8,Activate Entry 8
 activate entry 9=none,Meta+9,Activate Entry 9
-activate widget 143=none,none,Activate Launchpad Plasma Widget
-activate widget 53=none,none,Activate Launchpad Plasma Widget
+activate widget 143=,none,Activate Launchpad Plasma Widget
+activate widget 53=Ctrl+Alt+Space,none,Activate Launchpad Plasma Widget
 clear-history=none,none,Clear Clipboard History
 clipboard_action=,Ctrl+Alt+X,Enable Clipboard Actions
 cycleNextAction=none,none,Next History Item
@@ -263,6 +263,11 @@ stopmedia=Media Stop,Media Stop,Stop media playback
 [org.kde.dolphin.desktop]
 _k_friendly_name=Dolphin
 _launch=Meta+E,Meta+E,Dolphin
+
+[org.kde.krunner.desktop]
+RunClipboard=none,Alt+Shift+F2,Run command on clipboard contents
+_k_friendly_name=KRunner
+_launch=none,Alt+Space\tAlt+F2\tSearch,KRunner
 
 [org.kde.plasma.emojier.desktop]
 _k_friendly_name=Emoji Selector

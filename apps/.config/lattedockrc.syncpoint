@@ -18,6 +18,7 @@ outlineWidth=1
 [UniversalSettings]
 badges3DStyle=false
 canDisableBorders=false
+contextMenuActionsAlwaysShown=
 currentLayout=Laptop
 downloadWindowSize=800,550
 inAdvancedModeForEditSettings=true
