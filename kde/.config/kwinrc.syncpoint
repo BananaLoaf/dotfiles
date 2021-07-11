@@ -1,5 +1,6 @@
 [Compositing]
-GLTextureFilter=1
+GLCore=true
+GLTextureFilter=0
 OpenGLIsUnsafe=false
 
 [Desktops]

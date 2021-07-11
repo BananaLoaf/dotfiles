@@ -23,6 +23,7 @@ run associated application=true
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][1]
+ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=
 activityId=2f36be69-9d00-49e8-9792-2040dbce96a4
 formfactor=0

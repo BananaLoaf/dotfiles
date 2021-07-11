@@ -147,9 +147,11 @@ shadeSortColumn=true
 Theme=PearBlueDark
 
 [KDE]
+ColorScheme=PearDarkBlue
 LookAndFeelPackage=Custom
 SingleClick=false
 contrast=4
+widgetStyle=Lightly
 
 [KFileDialog Settings]
 Allow Expansion=false
@@ -167,7 +169,7 @@ Show hidden files=true
 Sort by=Name
 Sort directories first=true
 Sort reversed=true
-Speedbar Width=111
+Speedbar Width=162
 View Style=Detail
 
 [Shortcuts]

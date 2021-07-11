@@ -14,7 +14,11 @@ Version=200
 
 [IconsMode]
 IconSize=112
-PreviewSize=16
+PreviewSize=144
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
 
 [PlacesPanel]
-IconSize=32
+IconSize=22

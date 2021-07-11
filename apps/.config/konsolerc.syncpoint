@@ -4,5 +4,10 @@ DefaultProfile=Shell.profile
 [Favorite Profiles]
 Favorites=Shell.profile
 
+[MainWindow]
+MenuBar=Disabled
+StatusBar=Disabled
+ToolBarsMovable=Disabled
+
 [Notification Messages]
 CloseAllTabs=true

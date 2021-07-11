@@ -93,6 +93,7 @@ PACKAGES = {
         "sddm-sugar-light": "aur",
         "sddm-sugar-dark": "aur",
         "sddm-sugar-candy-git": "aur",
+        "lightly-qt": "aur",
     },
     "backup": {
         "timeshift": "aur",
