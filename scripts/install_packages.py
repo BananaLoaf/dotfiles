@@ -140,7 +140,9 @@ PACKAGES = {
         "ksysguard-gpu": "aur",
         # "plasma-systemmonitor": "pacman",
         "sshfs": "pacman",
-        # "kio-fuse": "pacman"
+        # "kio-fuse": "pacman",
+        "tlp": "pacman",
+        "powertop": "pacman",
     }
 }
 

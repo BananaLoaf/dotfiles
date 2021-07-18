@@ -4,8 +4,9 @@
 ```bash
 git clone https://github.com/BananaLoaf/dotfiles.git $HOME/.dotfiles && cd $HOME/.dotfiles
 
+
 # Backups and stuff
-yay -S linux-lts419  # Just in case
+# yay -S linux-lts419  # Just in case
 yay -S timeshift
 sudo pacman -Syyy grub-btrfs
 timeshift-launcher  # Start and configure
@@ -23,10 +24,23 @@ bash scripts/fix_lusk_btrfs_swap.sh
 bash scripts/fix_vol_keys.sh  # Not sure if usefull anymore
 sudo nano /etc/pam.d/sddm  # or bash scripts/gnome_keyring_autostart.sh but it doesn't work
 
-sudo mkinitcpio -P
+
+# Battety optimizations
+sudo pacman -S tlp powertop
+
+sudo systemctl enable tlp.service
+sudo systemctl start tlp.service
+
+sudo cp misc/powertop.service /etc/systemd/system/powertop.service
+sudo powertop --calibrate
+sudo systemctl enable powertop.service
+sudo systemctl start powertop.service
 
 # Backup
+sudo mkinitcpio -P
 timeshift-launcher
+
+reboot
 ```
 
 ## Personalize
