@@ -59,6 +59,9 @@ PACKAGES = {
         "clion-gdb": "aur",
         "clion": "aur",
         "docker": "pacman",
+        # "minikube": "pacman",
+        # "kubectl": "pacman",
+        # "kubelet": "pacman",
         "rust": "pacman",
         "go": "pacman",
         "cmake": "pacman",
@@ -143,6 +146,7 @@ PACKAGES = {
         # "kio-fuse": "pacman",
         "tlp": "pacman",
         "powertop": "pacman",
+        "logiops": "aur"
     }
 }
 

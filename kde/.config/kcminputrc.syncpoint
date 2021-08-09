@@ -8,4 +8,6 @@ RepeatDelay=600
 RepeatRate=25
 
 [Mouse]
+XLbInptAccelProfileFlat=true
+XLbInptPointerAcceleration=0
 cursorTheme=DeppinDark-cursors
