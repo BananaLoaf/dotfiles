@@ -146,7 +146,8 @@ PACKAGES = {
         # "kio-fuse": "pacman",
         "tlp": "pacman",
         "powertop": "pacman",
-        "logiops": "aur"
+        "logiops": "aur",
+        "barrier-bin": "aur",
     }
 }
 

@@ -1,6 +1,6 @@
 _pkgname=sticky-window-snapping
 pkgname=kwin-scripts-sticky-window-snapping
-pkgver=1.0
+pkgver=1.0.1
 pkgrel=1
 pkgdesc="KWin script to let snapped window edges stick together when one window is resized."
 arch=(any)
@@ -9,7 +9,7 @@ license=(GPLv2)
 depends=(kwin)
 makedepends=(kpackage)
 source=("$url/archive/v${pkgver}.zip")
-sha256sums=('75444b1fdc249f0d2f9df852634e4e522dd63978edd8f6a5489c35a423e7b4a5')
+sha256sums=('3dd3e1f2105b5016cafbbb4ab85f85f49ea30f870500186a67386464a5fffca6')
 
 package() {
   cd $srcdir/${_pkgname}-${pkgver}/
