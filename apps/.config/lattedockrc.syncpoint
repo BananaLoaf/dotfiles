@@ -2,6 +2,7 @@
 Number of Actions=0
 
 [Notification Messages]
+klipperClearHistoryAskAgain=false
 really_clear_history=true
 
 [PlasmaRunnerManager]
@@ -22,6 +23,7 @@ contextMenuActionsAlwaysShown=
 currentLayout=Laptop
 downloadWindowSize=800,550
 inAdvancedModeForEditSettings=true
+isAvailableGeometryBroadcastedToPlasma=true
 lastNonAssignedLayout=Laptop
 launchers=
 layoutsColumnWidths=

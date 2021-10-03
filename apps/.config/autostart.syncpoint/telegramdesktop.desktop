@@ -2,7 +2,7 @@
 Categories=Network;InstantMessaging;Qt;
 Comment[en_US]=Official desktop version of Telegram messaging app
 Comment=Official desktop version of Telegram messaging app
-Exec=telegram-desktop -- %u
+Exec=telegram-desktop -startintray -- %u
 GenericName[en_US]=
 GenericName=
 Icon=telegram
