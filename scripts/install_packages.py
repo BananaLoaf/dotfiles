@@ -14,9 +14,9 @@ PACKAGES = {
         # "intel-compute-runtime": "pacman",
         # "intel-opencl": "aur",
         # "level-zero-loader": "pacman",
-        "gcc8": "aur",  # for cuda
-        "cuda-10.1": "aur",
-        "cudnn7-cuda10.1": "aur",
+        # "gcc8": "aur",  # for cuda
+        # "cuda-10.1": "aur",
+        # "cudnn7-cuda10.1": "aur",
         "pipewire": "pacman",
         "qt5-tools": "pacman"
         # "pipewire-alsa": "pacman",
