@@ -1,3 +1,6 @@
+[$Version]
+update_info=kwin.upd:make-translucency-effect-disabled-by-default,kwin.upd:remove-flip-switch-effect,kwin.upd:remove-cover-switch-effect,kwin.upd:remove-cubeslide-effect,kwin.upd:remove-xrender-backend
+
 [Compositing]
 GLCore=true
 GLTextureFilter=0
@@ -9,7 +12,8 @@ Id_2=e3bb0631-c3f5-4804-8718-e158cbb52eb1
 Id_3=0cc14909-79ed-458e-aca6-4054519f5135
 Id_4=69876d94-e4c7-47b7-87a5-ac7f8a654e0f
 Id_5=cde875cb-7cd4-4e7d-b384-bcd2c440d232
-Number=5
+Id_6=d8cd0451-d601-4aff-a0a3-10316e562a85
+Number=6
 Rows=1
 
 [Effect-PresentWindows]

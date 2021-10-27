@@ -221,7 +221,7 @@ clear-history=none,none,Clear Clipboard History
 clipboard_action=,Ctrl+Alt+X,Enable Clipboard Actions
 cycleNextAction=none,none,Next History Item
 cyclePrevAction=none,none,Previous History Item
-edit_clipboard=none,none,Edit Contents...
+edit_clipboard=none,none,Edit Contents…
 new instance for entry 1=none,Meta+Ctrl+1,New Instance for Entry 1
 new instance for entry 10=none,Meta+Ctrl+0,New Instance for Entry 10
 new instance for entry 11=none,Meta+Ctrl+Z,New Instance for Entry 11
@@ -245,7 +245,7 @@ repeat_action=,Ctrl+Alt+R,Manually Invoke Action on Current Clipboard
 show latte global settings=none,Meta+W,Show Latte Global Settings
 show latte view=none,Meta+`,Show Latte Dock/Panel
 show view settings=none,Meta+A,Cycle Through Dock/Panel Settings Windows
-show-barcode=none,none,Show Barcode...
+show-barcode=none,none,Show Barcode…
 show-on-mouse-pos=none,Meta+V,Open Klipper at Mouse Position
 
 [mediacontrol]

@@ -1,7 +1,10 @@
+[$Version]
+update_info=kwinrules.upd:use-virtual-desktop-ids
+
 [1]
 Description=Telegram
-desktop=1
-desktoprule=3
+desktops=57836557-10be-4dd0-a43a-a69e585f700f
+desktopsrule=3
 maximizehoriz=true
 maximizehorizrule=3
 maximizevert=true
@@ -12,15 +15,15 @@ wmclassmatch=1
 
 [2]
 Description=Google Chrome
-desktop=2
-desktoprule=3
+desktops=e3bb0631-c3f5-4804-8718-e158cbb52eb1
+desktopsrule=3
 wmclass=google-chrome
 wmclassmatch=1
 
 [3]
 Description=Spotify
-desktop=1
-desktoprule=3
+desktops=57836557-10be-4dd0-a43a-a69e585f700f
+desktopsrule=3
 maximizehoriz=true
 maximizehorizrule=3
 maximizevert=true
@@ -30,8 +33,8 @@ wmclassmatch=1
 
 [4]
 Description=Discord
-desktop=1
-desktoprule=3
+desktops=57836557-10be-4dd0-a43a-a69e585f700f
+desktopsrule=3
 maximizehoriz=true
 maximizehorizrule=3
 maximizevert=true
@@ -41,3 +44,4 @@ wmclassmatch=1
 
 [General]
 count=4
+rules=1,2,3,4
